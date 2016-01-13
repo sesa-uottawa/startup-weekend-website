@@ -1,0 +1,28 @@
+.navbar-brand {
+	height:44px;
+}
+
+#startup-logo {
+	height:50%;
+	width:50%;
+	padding-bottom: 50px;
+}
+
+#uottawa-logo {
+	width:15%;
+	height:15%;
+	margin-top: 20px;
+}
+
+#video-title {
+	padding-bottom:20px;
+}
+
+#video-background {
+	background-color:black;
+	padding-top:30px;
+}
+
+.intro-table-fourth {
+	background-image: url('../img/table-4.png');
+}
