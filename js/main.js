@@ -80,9 +80,13 @@ jQuery(function($) {
 		if ($(window).scrollTop() > 50) {
 			$('nav.original').css('opacity', '0');
 			$('nav.navbar-fixed-top').css('opacity', '1');
+			// Fade in the Choose Your Startup title
+			$("#choose").animate({opacity: 1}, 100);
 		} else {
 			$('nav.original').css('opacity', '1');
 			$('nav.navbar-fixed-top').css('opacity', '0');
+			// Fade out the Choose Your Startup title
+			$("#choose").animate({opacity: 0}, 5);
 		}
 	}
 

@@ -16,10 +16,11 @@
 
 #video-title {
 	padding-bottom:20px;
+	padding-top:80px;
+	color:white;
 }
 
 #video-background {
-	background-color:black;
 	padding-top:30px;
 }
 
@@ -34,6 +35,136 @@
 	background: rgba(28, 36, 65, 0.93);
 	background: url('../img/header.jpg');
 	background-size: cover;
-	padding-bottom: 200px;
-	top: -295px;
+	padding-bottom: 100px;
+	top: -355px;
+}
+
+#second-cut {
+	top: -275px;
+	position: relative;
+	z-index: 1;
+}
+
+#intro-tables-container {
+	position:relative;
+	z-index:2;
+}
+
+#startup-weekend-description {
+	padding-top: 20px;
+}
+
+#startup-weekend-description2 {
+	text-align:left; 
+	background-color:white; 
+	padding:30px; 
+	border-radius: 10px; 
+	font-size:25px;
+}
+
+#what-is-startup {
+	padding-top:200px;
+}
+
+#services {
+	top:-400px;
+	padding-top:90px;
+}
+
+/* Footer */
+
+#testing {
+	padding: 0px 0 40px;
+	background: url('../img/footer.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+#testing .trial-button {
+	overflow: hidden !important;
+	margin: 40px 0;
+}
+
+#testing .open-blink {
+	content: ' ';
+	position: relative;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin: 0 20px;
+	border-radius: 50%;
+	background-color: #4caf50;
+	-webkit-animation-name: flash;
+	animation-name: flash;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+#testing .open-blink:before {
+	content: ' ';
+	position: absolute;
+	top: -8px;
+	left: -8px;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	opacity: 0.1;
+	border-radius: 50%;
+	background-color: #4caf50;
+}
+
+#testing .opening-hours {
+	margin-top: 60px;
+}
+
+#testing .bottom-footer {
+	margin-top: 150px;
+}
+
+#testing .social-footer {
+	padding: 0;
+	list-style: none;
+}
+
+#testing .social-footer li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+#testing .social-footer li a {
+	font-size: 24px;
+	color: #fff;
+}
+
+#testing .social-footer li:hover a {
+	color: #00a8ff;
+}
+
+.borderless tbody tr td, .borderless tbody tr th, .borderless thead tr th {
+    border: none;
+}
+
+.super-light {
+	font-weight:100;
+}
+
+#event-schedule-title {
+	padding-bottom: 100px;
+}
+
+.btn-block {
+	padding: 35px 30px;
+	color:white;
+	border-radius: 5px;
+	font-size:25px;
+}
+
+#schedule-button {
+	padding-bottom: 20px;
+}
+
+.schedule-table {
+	margin-top: 30px;
 }

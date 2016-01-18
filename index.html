@@ -78,9 +78,14 @@
 						<br>
 						<img id="startup-logo" src="img/startupweekend-logo.png">
 						<br>
+						<h4 style="color:white; top:-30px; font-weight:300;font-size:23px;">February 26 - 28, 2016 | Desmarais Building</h4>
+
 							<!--<h3 class="light white">uOttawa Startup Weekend.</h3>-->
 							<h1 class="white typed">Learn, Network, Startup.</h1>
 							<span class="typed-cursor">|</span>
+							<!-- Need to fix this div and remove inline-->
+							<h3 id="choose" style="margin:0; display:; color:white; top:25px; opacity:0;">Choose your Startup:</h3>
+
 						</div>
 					</div>
 				</div>
@@ -210,7 +215,7 @@
 	</section>
 
 	<section>
-		<div class="container" style="position:relative;z-index:2;">
+		<div id="intro-tables-container" class="container">
 			<div class="row intro-tables">
 				<div class="col-md-push-4 col-md-4">
 					<div class="intro-table intro-table-fourth">
@@ -233,14 +238,16 @@
 				</div>
 			</div>
 		</div>
-		<div class="cut cut-bottom" style="top: -356px; position: relative; z-index: 1;"></div>
+		<div id="second-cut" class="cut cut-bottom"></div>
 	</section>
 
-	<section id="about" class="section gray-bg" style="top: -425px;">
+	<section id="about" class="section gray-bg">
 		<div class="container">
 			<div class="row title text-center">
-				<h2 class="margin-top">What is Startup Weekend uOttawa Edition?</h2>
-				<h4 class="light muted">Startup Weekend is a global network of passionate leaders and entrepreneurs on a mission to inspire, educate, and empower individuals, teams and communities. Come share ideas, form teams, and launch startups.</h4>
+				<h2 id="what-is-startup" class="white">What is Startup Weekend uOttawa Edition?</h2>
+				<h4 id="startup-weekend-description" class="light white">Startup Weekend is a global network of passionate leaders and entrepreneurs on a mission to inspire, educate, and empower individuals, teams and communities. Come share ideas, form teams, and launch startups.</h4><br>
+				<h4 id="startup-weekend-description2" class="light black">We're excited to bring you the second Startup Weekend uOttawa!  This exclusive edition of Startup Weekend is for current <b>uOttawa students</b>, and <b>recent graduates</b>. Our goal is to connect students across all faculties to encourage and promote entrepreneurship regardless of discipline of study. We look forward to seeing the different types of innovative ideas that can come to life when students branch out and connect with those around them with different skill sets and areas of expertise.
+				In an effort to make the event more accessible to students and alumni, Telfer School of Management has subsidized the tickets.In terms of format and timelines, the event will be very similar to the events in the past that we have put on. We hope to see you out there and welcome you to send any and all questions to ottawa@startupweekend.org.</h4>
 			</div>
 		</div>
 
@@ -289,10 +296,166 @@
 		</div>
 		<div class="cut cut-bottom"></div>
 	</section>
+
+	<section id="testing">
+		<div class="container">
+			<div class="row opening-hours">
+				<div class="col-sm-12 text-center-mobile">
+					<h3 id="event-schedule-title" class="white">Event Schedule <span class="open-blink"></span></h3>
+
+					<!-- DAY 1 SCHEDULE -->
+					<div class="row" id="schedule-button">
+						<button type="button" class="btn-default btn-info btn-block" data-toggle="collapse" data-target="#demo1">Friday February 26th <i class="fa fa-plus"></i></button>
+	  					<div id="demo1" class="collapse">
+							<table class='table schedule-table'>
+								<tr>
+									<td width="20%"><h3 class="regular white">6:30 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Registration</h4></td>
+									<td width="50%"><h4 class="super-light white">Arrive at the venue and get checked in</h4></td>
+								</tr>
+								<tr>
+									<td width="20%"><h3 class="regular white">7:00 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Dinner & Networking</h4></td>
+									<td width="50%"><h4 class="super-light white">Eat food, share ideas, practice pitches, get to know fellow participants</h4></td>
+								</tr>
+								<tr>
+									<td width="20%"><h3 class="regular white">7:20 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Welcome & Speakers</h4></td>
+									<td width="50%"><h4 class="super-light white">Review agenda for the weekend and introduce speakers, coaches, and community leaders</h4></td>
+								</tr>
+								<tr>
+									<td width="20%"><h3 class="regular white">7:30 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Pitches Start</h4></td>
+									<td width="50%"><h4 class="super-light white">Optionally line up to give your pitch</h4></td>
+								</tr>
+								<tr>
+									<td width="20%"><h3 class="regular white">9:00 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Voting</h4></td>
+									<td width="50%"><h4 class="super-light white">Attendees vote for the top pitches</h4></td>
+								</tr>
+								<tr>
+									<td width="20%"><h3 class="regular white">9:15 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Form Teams</h4></td>
+									<td width="50%"><h4 class="super-light white">Teams start forming and discussing ideas</h4></td>
+								</tr>
+								<tr>
+									<td width="20%"><h3 class="regular white">10:00 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Begin Work</h4></td>
+									<td width="50%"><h4 class="super-light white">Start to formalize teams and take an inventory of skills. Be honest, and direct about what resources and skills are needed for the weekend. You may stay and work as late as the venue will allow</h4></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+
+					<!-- DAY 2 SCHEDULE -->
+					<div class="row" id="schedule-button">
+						<button type="button" class="btn-default btn-success btn-block" data-toggle="collapse" data-target="#demo2">Saturday February 27th <i class="fa fa-plus"></i></button>
+	  					<div id="demo2" class="collapse">
+							<table class='table schedule-table'>
+								<tr>
+									<td width="20%"><h3 class="regular white">6:30 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Registration</h4></td>
+									<td width="50%"><h4 class="super-light white">Arrive at the venue and get checked in</h4></td>
+								</tr>
+								<tr>
+									<td width="20%"><h3 class="regular white">7:00 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Dinner & Networking</h4></td>
+									<td width="50%"><h4 class="super-light white">Eat food, share ideas, practice pitches, get to know fellow participants</h4></td>
+								</tr>
+								<tr>
+									<td width="20%"><h3 class="regular white">7:20 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Welcome & Speakers</h4></td>
+									<td width="50%"><h4 class="super-light white">Review agenda for the weekend and introduce speakers, coaches, and community leaders</h4></td>
+								</tr>
+								<tr>
+									<td width="20%"><h3 class="regular white">7:30 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Pitches Start</h4></td>
+									<td width="50%"><h4 class="super-light white">Optionally line up to give your pitch</h4></td>
+								</tr>
+								<tr>
+									<td width="20%"><h3 class="regular white">9:00 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Voting</h4></td>
+									<td width="50%"><h4 class="super-light white">Attendees vote for the top pitches</h4></td>
+								</tr>
+								<tr>
+									<td width="20%"><h3 class="regular white">9:15 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Form Teams</h4></td>
+									<td width="50%"><h4 class="super-light white">Teams start forming and discussing ideas</h4></td>
+								</tr>
+								<tr>
+									<td width="20%"><h3 class="regular white">10:00 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Begin Work</h4></td>
+									<td width="50%"><h4 class="super-light white">Start to formalize teams and take an inventory of skills. Be honest, and direct about what resources and skills are needed for the weekend. You may stay and work as late as the venue will allow</h4></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+
+					<!-- DAY 3 SCHEDULE -->
+					<div class="row" id="schedule-button">
+						<button type="button" class="btn-default btn-danger btn-block" data-toggle="collapse" data-target="#demo3">Sunday February 28th <i class="fa fa-plus"></i></button>
+	  					<div id="demo3" class="collapse">
+							<table class='table schedule-table'>
+								<tr>
+									<td width="20%"><h3 class="regular white">6:30 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Registration</h4></td>
+									<td width="50%"><h4 class="super-light white">Arrive at the venue and get checked in</h4></td>
+								</tr>
+								<tr>
+									<td width="20%"><h3 class="regular white">7:00 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Dinner & Networking</h4></td>
+									<td width="50%"><h4 class="super-light white">Eat food, share ideas, practice pitches, get to know fellow participants</h4></td>
+								</tr>
+								<tr>
+									<td width="20%"><h3 class="regular white">7:20 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Welcome & Speakers</h4></td>
+									<td width="50%"><h4 class="super-light white">Review agenda for the weekend and introduce speakers, coaches, and community leaders</h4></td>
+								</tr>
+								<tr>
+									<td width="20%"><h3 class="regular white">7:30 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Pitches Start</h4></td>
+									<td width="50%"><h4 class="super-light white">Optionally line up to give your pitch</h4></td>
+								</tr>
+								<tr>
+									<td width="20%"><h3 class="regular white">9:00 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Voting</h4></td>
+									<td width="50%"><h4 class="super-light white">Attendees vote for the top pitches</h4></td>
+								</tr>
+								<tr>
+									<td width="20%"><h3 class="regular white">9:15 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Form Teams</h4></td>
+									<td width="50%"><h4 class="super-light white">Teams start forming and discussing ideas</h4></td>
+								</tr>
+								<tr>
+									<td width="20%"><h3 class="regular white">10:00 PM</h3></td>
+									<td width="30%"><h4 class="super-light white">Begin Work</h4></td>
+									<td width="50%"><h4 class="super-light white">Start to formalize teams and take an inventory of skills. Be honest, and direct about what resources and skills are needed for the weekend. You may stay and work as late as the venue will allow</h4></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="row bottom-footer text-center-mobile">
+				<div class="col-sm-8">
+					<p>&copy; 2015 All Rights Reserved. Powered by <a href="http://www.phir.co/">PHIr</a> exclusively for <a href="http://tympanus.net/codrops/">Codrops</a></p>
+				</div>
+				<div class="col-sm-4 text-right text-center-mobile">
+					<ul class="social-footer">
+						<li><a href="http://www.facebook.com/pages/Codrops/159107397912"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="http://www.twitter.com/codrops"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://plus.google.com/101095823814290637419"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<section id="team" class="section gray-bg">
 		<div class="container">
 			<div class="row title text-center">
-				<h2 class="margin-top">Team</h2>
+				<h2 class="margin-top">Organizing Team</h2>
 				<h4 class="light muted">We're a dream team!</h4>
 			</div>
 			<div class="row">
