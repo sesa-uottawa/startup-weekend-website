@@ -1,3 +1,13 @@
+/* Positioning */
+.margin-top-0 * {
+	margin-top: 0px;
+}
+
+.margin-top-50 {
+	margin-top: 50px;
+}
+
+/* Styles */
 .navbar-brand {
 	height:44px;
 }
@@ -167,4 +177,34 @@
 
 .schedule-table {
 	margin-top: 30px;
+}
+
+.avatar {
+	width:50%;
+	height:50%;
+}
+
+.social-icons {
+	padding:25px;
+	transition: all .2s ease-in-out;
+	cursor: pointer;
+
+}
+
+.social-icons:hover {
+	transform: scale(1.5); 
+}
+
+.social-icon-wrapper {
+	position:absolute;
+    left:0;
+    right:0;
+    top:15%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#leader-description {
+	padding-left: 20px;
+	padding-right: 20px;
 }
