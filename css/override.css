@@ -229,3 +229,11 @@
     vertical-align: middle;
     display: inline-block;
 }
+
+.share-icons {
+	color:#19B1FF;
+}
+
+.service {
+	cursor: pointer;
+}
