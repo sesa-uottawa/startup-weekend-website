@@ -107,6 +107,12 @@ jQuery(function($) {
 		$('#pricing').css("background-size", "cover");
 	});
 
+	// Schedule Box Click Event
+	$('.change-background').click(function() {
+		$('#schedule-background').css("background", "url(" + $(this).data('img') + ")");
+		$('#schedule-background').css("background-size", "cover");
+	});
+
 	// Mobile Nav
 	$('body').on('click', 'nav .navbar-toggle', function() {
 		event.stopPropagation();

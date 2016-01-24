@@ -88,10 +88,12 @@
 /* Footer */
 
 #schedule-background {
-	padding: 0px 0 40px;
-	background: url('../img/footer.jpg');
+	background: url('../img/footer.jpg') no-repeat center center;
+	padding: 0px 0px 40px;
 	-webkit-background-size: cover;
 	background-size: cover;
+	-webkit-transition: background-image 0.6s linear 0.3s;
+	transition: background-image 0.6s linear 0.3s;
 }
 
 #schedule-background .trial-button {
@@ -175,7 +177,7 @@
 	font-size:25px;
 }
 
-#schedule-button {
+.schedule-button {
 	padding-bottom: 20px;
 }
 
@@ -249,7 +251,7 @@
 	font-size:20px;
 	font-weight: 400;
 	background-color: #ffffff;
-	color:black;
+	color: #343434;
 	line-height: 28px;
 	border: thick solid #bbbbbb;
 	border-width: 1px;

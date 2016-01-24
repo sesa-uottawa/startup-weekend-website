@@ -351,6 +351,8 @@ section {
 .intro-table-hover .expand {
 	margin: 30px;
 	margin-top: 120px;
+	position:relative;
+	bottom: 30px;
 	opacity: 0;
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 	transition: transform 0.3s ease, opacity 0.3s;
