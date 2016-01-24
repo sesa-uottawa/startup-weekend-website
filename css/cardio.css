@@ -231,6 +231,7 @@ nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 	color: #fff;
 	border-color: #fff;
 	background: transparent;
+	width:40%;
 }
 
 .btn.btn-white-fill:hover {
@@ -308,7 +309,7 @@ section {
 }
 
 .intro-tables {
-	top: -130px;
+	top: -105px;
 	position: relative;
 }
 
@@ -326,7 +327,6 @@ section {
 .intro-table-hover {
 	-webkit-transition: background-image 0.3s ease, background-position 0.3s;
 	transition: background-image 0.3s ease, background-position 0.3s;
-	background-image: url('../img/table-2.jpg');
 }
 
 .intro-table-hover h4 {
@@ -337,8 +337,11 @@ section {
 }
 
 .intro-table-hover:hover {
-	background-image: url('../img/table-2-hover.jpg');
 	background-position: 50% 50%;
+}
+
+.intro-table-second {
+	background-image: url('../img/table-2.jpg');
 }
 
 .intro-table-third {
@@ -392,11 +395,13 @@ section {
 .intro-tables .intro-table .small-heading {
 	margin: 0;
 	padding: 0 30px;
+	top: 40px;
 }
 
 .intro-tables .intro-table .bottom {
 	position: absolute;
 	bottom: 0;
+	width:100%;
 }
 
 .intro-tables .intro-table .owl-schedule .schedule-row {
