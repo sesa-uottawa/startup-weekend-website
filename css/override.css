@@ -55,6 +55,16 @@ body {
 	
 }
 
+#video-section {
+	position: relative;
+	width: 100%;
+	color: white;
+	background: rgba(28, 36, 65, 0.93);
+	background: url('../img/bg-1.png');
+	background-size: cover;
+	padding-bottom: 100px;
+}
+
 #push-up-divs {
 	position:relative;
 	top:-320px;
@@ -276,6 +286,22 @@ body {
 
 #social-hover:hover {
 	color:#19B1FF;
+}
+
+.category-column {
+	padding:40px;
+}
+
+#categories {
+	margin-top: 50px;
+}
+
+#categories-title {
+	margin-bottom: 50px;
+}
+
+#build-a-startup {
+	line-height: 35px;
 }
 
 /* MEDIA QUERIES FOR RESPONSIVE LAYOUT*/
