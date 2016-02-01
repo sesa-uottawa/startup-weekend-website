@@ -23,16 +23,16 @@
     <favorites_list name="Startup Weekend" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.60188544">
+    <splitter split-orientation="horizontal" split-proportion="0.83125">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.38659793">
-                  <caret line="607" column="41" selection-start-line="607" selection-start-column="41" selection-end-line="607" selection-end-column="41" />
+                <state vertical-scroll-proportion="0.6494845">
+                  <caret line="460" column="90" selection-start-line="460" selection-start-column="90" selection-end-line="460" selection-end-column="90" />
                   <folding>
-                    <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#a#0;n#div#2;n#div#0;n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -147,8 +147,8 @@
           <file leaf-file-name="override.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/override.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7371134">
-                  <caret line="403" column="0" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.33247423">
+                  <caret line="305" column="1" selection-start-line="305" selection-start-column="1" selection-end-line="305" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -171,8 +171,8 @@
         <option value="$PROJECT_DIR$/js/wow.min.js" />
         <option value="$PROJECT_DIR$/css/cardio.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/override.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -182,8 +182,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1648" />
-    <option name="y" value="-8" />
+    <option name="x" value="-1710" />
+    <option name="y" value="-7" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
@@ -345,7 +345,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1648" y="-8" width="1616" height="876" extended-state="0" />
+    <frame x="-1710" y="-7" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18884665" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -405,7 +405,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="97" column="28" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#2;n#div#0;n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -505,7 +505,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="97" column="28" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#2;n#div#0;n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -663,21 +663,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/override.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38659793">
-          <caret line="607" column="41" selection-start-line="607" selection-start-column="41" selection-end-line="607" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.33247423">
+          <caret line="305" column="1" selection-start-line="305" selection-start-column="1" selection-end-line="305" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/override.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7371134">
-          <caret line="403" column="0" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.6494845">
+          <caret line="460" column="90" selection-start-line="460" selection-start-column="90" selection-end-line="460" selection-end-column="90" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#2;n#div#0;n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
