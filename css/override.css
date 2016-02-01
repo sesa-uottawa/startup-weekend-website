@@ -517,6 +517,17 @@ body {
 	}
 }
 
+@media (max-width: 400px) {
+	.textContainer {
+		margin-top:40px;
+	}
+
+	#sesa, #tecde, #telfer, #enactus {
+		height:50%;
+		width:50%;
+	}
+}
+
 /* To stretch out menu width */
 @media (min-width: 1200px) {
 	.container {
