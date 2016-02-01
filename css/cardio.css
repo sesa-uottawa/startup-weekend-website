@@ -324,7 +324,11 @@ section {
 }
 
 .intro-table-first {
-	background-image: url('../img/table-1.jpg');
+	background-image:
+			linear-gradient(
+					rgba(216, 81, 77, 0.8),
+					rgba(216, 81, 77, 0.8)),
+			url('../img/table-1-image.jpg');
 }
 
 .intro-table-hover {
@@ -344,11 +348,19 @@ section {
 }
 
 .intro-table-second {
-	background-image: url('../img/table-2.jpg');
+	background-image:
+			linear-gradient(
+					rgba(76, 147, 74, 0.8),
+					rgba(35, 147, 25, 0.8)),
+			url('../img/table-2-image.jpg');
 }
 
 .intro-table-third {
-	background-image: url('../img/table-3.jpg');
+	background-image:
+			linear-gradient(
+					rgba(1, 130, 198, 0.8),
+					rgba(1, 130, 198, 0.8)),
+			url('../img/table-3-image.jpg');
 }
 
 .intro-table-hover .expand {
