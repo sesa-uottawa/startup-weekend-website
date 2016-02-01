@@ -456,6 +456,18 @@ body {
 	}
 }
 
+@media (max-width: 767px) {
+	#uottawa-logo {
+		height: 20%;
+		width: 20%;
+	}
+	#startup-logo {
+		height: 95%;
+		width: 95%;
+	}
+}
+
+/* To stretch out menu width */
 @media (min-width: 1200px) {
 	.container {
 		width: 1370px;
