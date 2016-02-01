@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b97cd9d1-0f33-413d-bd04-60aab72821e7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/team/team-cover1.jpg" afterPath="$PROJECT_DIR$/img/team/team-cover1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/team/team-cover2.jpg" afterPath="$PROJECT_DIR$/img/team/team-cover2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/team/team-cover3.jpg" afterPath="$PROJECT_DIR$/img/team/team-cover3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/cardio.css" afterPath="$PROJECT_DIR$/css/cardio.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/override.css" afterPath="$PROJECT_DIR$/css/override.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -34,10 +29,9 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4201031">
-                  <caret line="77" column="45" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
+                <state vertical-scroll-proportion="0.38659793">
+                  <caret line="607" column="41" selection-start-line="607" selection-start-column="41" selection-end-line="607" selection-end-column="41" />
                   <folding>
-                    <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
@@ -143,7 +137,7 @@
           <file leaf-file-name="cardio.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/cardio.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.528302">
+                <state vertical-scroll-proportion="6.5454545">
                   <caret line="115" column="4" selection-start-line="115" selection-start-column="4" selection-end-line="119" selection-end-column="31" />
                   <folding />
                 </state>
@@ -154,7 +148,7 @@
             <entry file="file://$PROJECT_DIR$/css/override.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.7371134">
-                  <caret line="355" column="61" selection-start-line="355" selection-start-column="61" selection-end-line="355" selection-end-column="61" />
+                  <caret line="403" column="0" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -188,7 +182,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="-1648" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
@@ -351,7 +345,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-1648" y="-8" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18884665" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -411,7 +405,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="97" column="28" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
           <folding>
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -512,7 +505,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="97" column="28" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
           <folding>
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -647,14 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/cardio.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.528302">
-          <caret line="115" column="4" selection-start-line="115" selection-start-column="4" selection-end-line="119" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -671,22 +655,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/override.css">
+    <entry file="file://$PROJECT_DIR$/css/cardio.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7371134">
-          <caret line="355" column="61" selection-start-line="355" selection-start-column="61" selection-end-line="355" selection-end-column="61" />
+        <state vertical-scroll-proportion="6.5454545">
+          <caret line="115" column="4" selection-start-line="115" selection-start-column="4" selection-end-line="119" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4201031">
-          <caret line="77" column="45" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.38659793">
+          <caret line="607" column="41" selection-start-line="607" selection-start-column="41" selection-end-line="607" selection-end-column="41" />
           <folding>
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/override.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7371134">
+          <caret line="403" column="0" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
