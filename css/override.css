@@ -402,6 +402,30 @@ body {
 	margin-bottom: 70px;
 }
 
+.embed-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%; }
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#video-container {
+	padding-left:20vw;
+	padding-right:20vw;
+}
+
+#sesa {
+	position:relative;
+	right:30px;
+}
 
 /* MEDIA QUERIES FOR RESPONSIVE LAYOUT*/
 
@@ -456,6 +480,7 @@ body {
 	}
 }
 
+/* Mobile menu */
 @media (max-width: 767px) {
 	#uottawa-logo {
 		height: 20%;
@@ -464,6 +489,28 @@ body {
 	#startup-logo {
 		height: 95%;
 		width: 95%;
+	}
+	#what-is-startup {
+		padding-top:140px;
+	}
+	.section-title {
+		font-size: 28px;
+	}
+	#location-title {
+		font-size: 28px;
+	}
+	#share-friends {
+		font-size: 28px;
+	}
+	.sponsor-logo-gold {
+		width:40%;
+		height:40%;
+	}
+	.sponsor-logo-silver {
+		margin-top:100px;
+	}
+	#invest-ottawa {
+		margin-top:0px;
 	}
 }
 
