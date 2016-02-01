@@ -512,6 +512,9 @@ body {
 	#invest-ottawa {
 		margin-top:0px;
 	}
+	#startup-weekend-description, #startup-weekend-description2 {
+		font-size:19px;
+	}
 }
 
 /* To stretch out menu width */
