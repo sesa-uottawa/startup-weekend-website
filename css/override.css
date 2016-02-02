@@ -526,6 +526,10 @@ body {
 		height:50%;
 		width:50%;
 	}
+	.ticket-type {
+		font-size:15px;
+		font-weight: 500;
+	}
 }
 
 /* To stretch out menu width */
