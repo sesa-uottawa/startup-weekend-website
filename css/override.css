@@ -321,6 +321,8 @@ body {
 
 #build-a-startup {
 	line-height: 35px;
+	padding-left: 10vw;
+	padding-right: 10vw;
 }
 
 #cover1 {
@@ -515,13 +517,15 @@ body {
 	#startup-weekend-description, #startup-weekend-description2 {
 		font-size:19px;
 	}
+	#build-a-startup {
+		font-size:17px;
+	}
 }
 
 @media (max-width: 400px) {
 	.textContainer {
 		margin-top:40px;
 	}
-
 	#sesa, #tecde, #telfer, #enactus {
 		height:50%;
 		width:50%;
@@ -529,6 +533,13 @@ body {
 	.ticket-type {
 		font-size:15px;
 		font-weight: 500;
+	}
+	#build-a-startup {
+		font-size:14px;
+		line-height: 30px;
+	}
+	.category-description {
+		font-size:15px;
 	}
 }
 
