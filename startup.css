@@ -1,0 +1,62 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: rgb(143, 0, 26);
+  padding: 20px;
+}
+
+.flex-container {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 120px;
+}
+
+.flex-spacer {
+  width: 48px;
+  flex: 0 0 48px;
+  margin-right: 36px;
+}
+
+div {
+  display: block;
+}
+
+.about-container h1 {
+  font-size: 3rem;
+  margin-bottom: 42px;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  min-height: 100%;
+  max-width: none;
+  background-color: rgb(143, 0, 26);
+  background: url("img/main-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+.batman {
+  margin-top: 50px;
+  padding-top: 5px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(img/main-bg.jpeg) no-repeat center center;
+  background-size: cover;
+}
