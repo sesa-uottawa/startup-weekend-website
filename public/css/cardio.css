@@ -113,11 +113,8 @@ header {
 	position: relative;
 	width: 100%;
 	color: white;
-	background:
-	linear-gradient(
-			rgba(0, 0, 0, 0.25),
-			rgba(0, 0, 0, 0.25)),
-	url('../img/intro-bg.jpg');
+	/*background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../img/intro-bg.jpg');*/
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25)), url('../img/pexels-photo-40120.jpeg');
 	background-size: cover;
 }
 
@@ -194,7 +191,7 @@ nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 }
 /* Buttons */
 
-.btn {
+/*.btn {
 	font-size: 18px;
 	display: inline-block;
 	padding: 15px 30px;
@@ -204,7 +201,7 @@ nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 	background: transparent;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
-}
+}*/
 
 .btn:hover,
 .btn:focus {
@@ -1131,8 +1128,3 @@ footer .social-footer li:hover a {
 		padding-top: 0;
 	}
 }
-
-
-
-
-
