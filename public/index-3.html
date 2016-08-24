@@ -32,6 +32,8 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Menu Control -->
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
     <!-- Owl -->
     <!-- <link rel="stylesheet" type="text/css" href="css/owl.css"> -->
     <!-- Animate.css -->
@@ -47,30 +49,42 @@
 
     <style type="text/css">
       body {
-          border-left: 10px solid #3CCF80;
-          border-right: 10px solid #3CCF80;
+          /*border-left: 10px solid #3CCF80;*/
+          /*border-right: 10px solid #3CCF80;*/
+          border-left: 30px solid white;
+          border-right: 30px solid white;
       }
       .uottawa-overlay {
         position: relative;
-        height: 85vh;
+        height: 75vh;
         /*width: 100vw;*/
         width: 100%;
         margin-top: 0;
         /*margin-top: 59px;*/
       	/*background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../img/intro-bg.jpg');*/
-        background: linear-gradient(rgba(60, 207, 128, 1), rgba(0, 0, 0, 0.5)), url('../img/pexels-photo-40120.jpeg');
+        background: linear-gradient(rgba(60, 207, 128, 1), rgba(0, 0, 0, 0.35)), url('../img/pexels-photo-40120.jpeg');
       	background-size: cover;
-        border-bottom: 10px solid #3CCF80;
+        /*border-bottom: 10px solid #3CCF80;*/
       }
       .uottawa-container{
         margin-left: 5vh;
       }
-      .uottawa-video-container {
-        margin: 0 auto 0 auto;
-      }
+
       #about, #categories, #location, #schedule, #partners {
-        border-bottom: 10px solid #3CCF80;
+        /*border-bottom: 10px solid #3CCF80;*/
       }
+
+      /*#categories:after{
+        background: inherit;
+        content: '';
+        display: block;
+        height: 50%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+        -webkit-backface-visibility: hidden;
+      }*/
 
       #categories {
         width: 100%;
@@ -86,56 +100,77 @@
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(60, 207, 128, 1)), url('../img/schedule-bg-xs.jpg');
         background-size: cover;
       }
+      .flexbox-container {
+      	display: -ms-flexbox;
+      	display: -webkit-flex;
+      	display: flex;
+
+      	-ms-flex-align: center;
+      	-webkit-align-items: center;
+      	-webkit-box-align: center;
+
+      	align-items: center;
+        -webkit-justify-content: center; /* Safari */
+       justify-content:         center;
+      }
     </style>
 </head>
 <!-- Body -->
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top" style="background: #3CCF80; border-color: transparent;">
-      <div class="container">
-        <div class="navbar-header" style="height: 59px">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <!-- <img src="img/LC_StartupWeekend_BGLogoSML_RGB_REVERSE-WHT_rgb_224_44.png" alt="Startup Weekend Logo" style="display: none" /> -->
-            <img src="img/sw-logo-white.svg" alt="Startup Weekend Logo" style="display: none" />
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <!-- <img src="img/LC_StartupWeekend_BGLogoSML_RGB_REVERSE-WHT_rgb_224_44.png" alt="Startup Weekend Logo" /> -->
-            <a href="#home">
-              <img src="img/sw-logo-white.svg" alt="Startup Weekend Logo" />
-            </a>
-            <ul class="nav navbar-nav navbar-right main-nav">
-                <li><a href="#about" style="color: white">About</a></li>
-                <li><a href="#categories">Categories</a></li>
-                <li><a href="#location">Location</a></li>
-                <li><a href="#schedule">Schedule</a></li>
-                <li><a href="http://www.eventbrite.com/e/startup-weekend-ottawa-uottawa-edition-2-tickets-19866710867" class="btn btn-default">Buy Tickets</a></li>
-                <li><a href="https://twitter.com/UOStartupWknd" target="_blank"><i id="social-hover" class="fa fa-twitter fa-2x social-hover"></i></a></li>
-                <li><a href="https://www.facebook.com/events/1693474737537934/" target="_blank"><i class="fa fa-facebook fa-2x social-hover"></i></a></li>
-            </ul>
-        </div>
+
+  <div id="o-wrapper" class="o-wrapper">
+    <div class="c-buttons">
+      <button id="c-button--slide-left" class="c-button"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    </div>
+  </div>
+
+  <!-- <div style="margin: 10px" id="c-button--slide-left" class="c-button">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+  </div> -->
+
+  <nav id="c-menu--slide-left" class="c-menu c-menu--slide-left">
+    <button class="c-menu__close">&larr; Close Menu</button>
+    <div class="flexbox-container">
+      <div class="item" style="padding-top: 5px">
+        <!-- <img id="uottawa-logo" src="img/uottawa.png" height="44px"> -->
+        <img id="uottawa-logo" src="img/uottawa-horizontal-black.png" height="44px">
       </div>
-    </nav>
+    </div>
+    <ul class="c-menu__items">
+      <li class="c-menu__item"><a href="#home" class="c-menu__link">Home</a></li>
+      <li class="c-menu__item"><a href="#about" class="c-menu__link">About</a></li>
+      <li class="c-menu__item"><a href="#categories" class="c-menu__link">Categories</a></li>
+      <li class="c-menu__item"><a href="#location" class="c-menu__link">Location</a></li>
+      <li class="c-menu__item"><a href="#schedule" class="c-menu__link">Schedule</a></li>
+      <li class="c-menu__item"><a href="#team" class="c-menu__link">Team</a></li>
+      <li class="c-menu__item"><a href="#sponsors" class="c-menu__link">Sponsors</a></li>
+      <li class="c-menu__item"><a href="#partners" class="c-menu__link">Partners</a></li>
+      <li class="c-menu__item"><a href="https://twitter.com/UOStartupWknd" target="_blank" class="c-menu__link"><i class="fa fa-twitter fa-2x social-hover"></i></a></li>
+      <li class="c-menu__item"><a href="https://www.facebook.com/events/1693474737537934/" target="_blank" class="c-menu__link"><i class="fa fa-facebook fa-2x social-hover"></i></a></li>
+      <li class="c-menu__item"><a href="http://www.eventbrite.com/e/startup-weekend-ottawa-uottawa-edition-2-tickets-19866710867" class="btn btn-default btn-lg">Buy Tickets</a></li>
+    </ul>
+  </nav>
+
+  <div id="c-mask" class="c-mask"></div>
+
   <section id="home" class="uottawa-overlay">
     <div class="uottawa-container">
-      <p>
-        <h1 style="color: white; font-size: 4em; font-weight: 700">uOttawa Startup Weekend</h1>
+        <!-- <h1 style="color: white; font-size: 4em; font-weight: 700; margin-top: 0;">uOttawa Startup Weekend</h1> -->
+        <img id="startup-logo" src="img/startupweekend-logo-white.png" style="max-height: 200px">
         <p class="lead" style="color: white;">
           In just 54 hours, you will experience the highs, lows, fun, and pressure that make up life at a startup.
         </p>
-      </p>
+        <p class="lead" style="color: white;">
+          Let's build something together.
+        </p>
       <p>
-        <h3 style="color: white;">November 18 - 20, 2016 @ <a href="#location">Morisset Library</a></h3>
+        <h3 style="color: white">November 18 - 20, 2016 @ <a href="#location" style="color: white">Morisset Library</a></h3>
       </p>
-      <div style="position: absolute; bottom: 59px;">
+      <div style="position: absolute; bottom: 10px;">
         <h1 style="color: white">
           Learn, Network, Startup
         </h1>
-        <a href="http://www.eventbrite.com/e/startup-weekend-ottawa-uottawa-edition-2-tickets-19866710867" class="btn btn-lg btn-default">Buy Tickets</a>
+        <a href="http://www.eventbrite.com/e/startup-weekend-ottawa-uottawa-edition-2-tickets-19866710867" class="btn btn-default btn-lg">Buy Tickets</a>
       </div>
     </div>
   </section>
@@ -196,18 +231,22 @@
                       <li>Vulnerable communities</li>
                     </ul>
                   </p>
-                  <a href="http://www.eventbrite.com/e/startup-weekend-ottawa-uottawa-edition-2-tickets-19866710867" class="btn btn-xs btn-default">Buy Tickets</a>
+                  <div class="flexbox-container">
+                    <a href="http://www.eventbrite.com/e/startup-weekend-ottawa-uottawa-edition-2-tickets-19866710867" class="btn btn-xs btn-default">Buy Tickets</a>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-md-3 category-column">
               <div class="thumbnail">
-                <img src="img/icons/print.png" alt="Makers Category">
+                <img src="img/icons/print.png" alt="Makers Category" style="height: 128px">
                 <div class="caption">
                   <h4>Makers</h4>
                   <p class="category-description">This category is focused on building physical prototypes during the weekend. To do this, you will have equipment available (3D printer, laser cutting and other machining)
     as well as open-source hardware (Arduino, Raspberry).  The possibilities of what can be created during the weekend are just about endless!</p>
-                  <a href="http://www.eventbrite.com/e/startup-weekend-ottawa-uottawa-edition-2-tickets-19866710867" class="btn btn-xs btn-default">Buy Tickets</a>
+                  <div class="flexbox-container">
+                    <a href="http://www.eventbrite.com/e/startup-weekend-ottawa-uottawa-edition-2-tickets-19866710867" class="btn btn-xs btn-default">Buy Tickets</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -530,9 +569,28 @@
 <!-- <script src="js/wow.min.js"></script> -->
 <!-- <script src="js/typewriter.js"></script> -->
 <script src="js/jquery.onepagenav.js"></script>
+<script src="js/menu.js"></script>
 <!-- <script src="js/main.js"></script> -->
 <!-- Google analytics -->
 <!-- <script src="js/googleanalytics.js"></script> -->
+<script>
+  /**
+   * Slide left instantiation and action.
+   */
+  var slideLeft = new Menu({
+    wrapper: '#o-wrapper',
+    type: 'slide-left',
+    menuOpenerClass: '.c-button',
+    maskId: '#c-mask'
+  });
+  var slideLeftBtn = document.querySelector('#c-button--slide-left');
+
+  slideLeftBtn.addEventListener('click', function(e) {
+    e.preventDefault;
+    slideLeft.open();
+  });
+</script>
+
 </body>
 
 </html>
