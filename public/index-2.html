@@ -57,7 +57,7 @@
         width: 100%;
         margin-top: 59px;
       	/*background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../img/intro-bg.jpg');*/
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/pexels-photo-40120.jpeg');
+        background: linear-gradient(rgba(60, 207, 128, 1), rgba(0, 0, 0, 0.5)), url('../img/pexels-photo-40120.jpeg');
       	background-size: cover;
         border-bottom: 10px solid #3CCF80;
       }
@@ -67,8 +67,23 @@
       .uottawa-video-container {
         margin: 0 auto 0 auto;
       }
-      #about, #categories, #location {
+      #about, #categories, #location, #schedule, #partners {
         border-bottom: 10px solid #3CCF80;
+      }
+
+      #categories {
+        width: 100%;
+        color: white;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(60, 207, 128, 1)), url('../img/categories-bg.jpg');
+        /*background: rgba(60, 207, 128, 1);*/
+        background-size: cover;
+      }
+
+      #schedule {
+        width: 100%;
+        color: white;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(60, 207, 128, 1)), url('../img/schedule-bg-xs.jpg');
+        background-size: cover;
       }
     </style>
 </head>
@@ -89,9 +104,11 @@
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <!-- <img src="img/LC_StartupWeekend_BGLogoSML_RGB_REVERSE-WHT_rgb_224_44.png" alt="Startup Weekend Logo" /> -->
-          <img src="img/sw-logo-white.svg" alt="Startup Weekend Logo" />
+          <a href="#home">
+            <img src="img/sw-logo-white.svg" alt="Startup Weekend Logo" />
+          </a>
           <ul class="nav navbar-nav navbar-right main-nav">
-              <li><a href="#about">About</a></li>
+              <li><a href="#about" style="color: white">About</a></li>
               <li><a href="#categories">Categories</a></li>
               <li><a href="#location">Location</a></li>
               <li><a href="#schedule">Schedule</a></li>
@@ -113,7 +130,12 @@
       <p>
         <h3 style="color: white;">November 18 - 20, 2016 @ <a href="#location">Morisset Library</a></h3>
       </p>
-      <a href="http://www.eventbrite.com/e/startup-weekend-ottawa-uottawa-edition-2-tickets-19866710867" class="btn btn-lg btn-default">Buy Tickets</a>
+      <div style="position: absolute; bottom: 59px;">
+        <h1 style="color: white">
+          Learn, Network, Startup
+        </h1>
+        <a href="http://www.eventbrite.com/e/startup-weekend-ottawa-uottawa-edition-2-tickets-19866710867" class="btn btn-lg btn-default">Buy Tickets</a>
+      </div>
     </div>
   </section>
   <section id="about">
@@ -148,42 +170,44 @@
     </div>
   </section>
   <section id="categories">
-    <div class="uottawa-container">
-      <div class="container" style="max-width: 75%">
-        <div class="row">
-          <div class="col-sm-12">
-            <h1 style="font-size: 3em; font-weight: 600; border-bottom: 10px solid #3CCF80; margin-top: 59px">Categories</h1>
-            <p class="lead">
-              While the purpose of a Start up Weekend is about the experience, we've added a bit more! We've put together a prize package (including $1,000) for the best team based on the Sunday pitch. In addition, we've created two individual categories that you can choose to compete in - each category comes with an additional $500 prize package.
-            </p>
-            <p class="lead">
-              <b>And yes, you can compete in multiple categories!</b>
-            </p>
-          </div>
-          <div class="col-xs-12 col-md-3 col-md-offset-3 category-column">
-            <div class="thumbnail">
-              <img src="img/icons/urban_agriculture.png" alt="Social Impact" height="100" />
-              <div class="caption">
-                <h4>Social Impact</h4>
-                <p class="category-description">This category focuses on the area of social entrepreneurship and  inspiring socially sustainable models and cause-based businesses. Dare to think differently and be a difference maker.  Create sustainable businesses that create a positive social impact! Consider causes like:
-                  <ul>
-                    <li>Environment</li>
-                    <li>Poverty & Homelessness</li>
-                    <li>Vulnerable communities</li>
-                  </ul>
-                </p>
-                <a href="http://www.eventbrite.com/e/startup-weekend-ottawa-uottawa-edition-2-tickets-19866710867" class="btn btn-xs btn-default">Buy Tickets</a>
+    <div class="color-wrapper">
+      <div class="uottawa-container">
+        <div class="container" style="max-width: 75%">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 style="font-size: 3em; font-weight: 600; border-bottom: 10px solid #3CCF80; margin-top: 59px">Categories</h1>
+              <p class="lead">
+                While the purpose of a Start up Weekend is about the experience, we've added a bit more! We've put together a prize package (including $1,000) for the best team based on the Sunday pitch. In addition, we've created two individual categories that you can choose to compete in - each category comes with an additional $500 prize package.
+              </p>
+              <p class="lead">
+                <b>And yes, you can compete in multiple categories!</b>
+              </p>
+            </div>
+            <div class="col-xs-12 col-md-3 col-md-offset-3 category-column">
+              <div class="thumbnail">
+                <img src="img/icons/urban_agriculture.png" alt="Social Impact" height="100" />
+                <div class="caption">
+                  <h4>Social Impact</h4>
+                  <p class="category-description">This category focuses on the area of social entrepreneurship and  inspiring socially sustainable models and cause-based businesses. Dare to think differently and be a difference maker.  Create sustainable businesses that create a positive social impact! Consider causes like:
+                    <ul>
+                      <li>Environment</li>
+                      <li>Poverty & Homelessness</li>
+                      <li>Vulnerable communities</li>
+                    </ul>
+                  </p>
+                  <a href="http://www.eventbrite.com/e/startup-weekend-ottawa-uottawa-edition-2-tickets-19866710867" class="btn btn-xs btn-default">Buy Tickets</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-xs-12 col-md-3 category-column">
-            <div class="thumbnail">
-              <img src="img/icons/print.png" alt="Makers Category">
-              <div class="caption">
-                <h4>Makers</h4>
-                <p class="category-description">This category is focused on building physical prototypes during the weekend. To do this, you will have equipment available (3D printer, laser cutting and other machining)
-  as well as open-source hardware (Arduino, Raspberry).  The possibilities of what can be created during the weekend are just about endless!</p>
-                <a href="http://www.eventbrite.com/e/startup-weekend-ottawa-uottawa-edition-2-tickets-19866710867" class="btn btn-xs btn-default">Buy Tickets</a>
+            <div class="col-xs-12 col-md-3 category-column">
+              <div class="thumbnail">
+                <img src="img/icons/print.png" alt="Makers Category">
+                <div class="caption">
+                  <h4>Makers</h4>
+                  <p class="category-description">This category is focused on building physical prototypes during the weekend. To do this, you will have equipment available (3D printer, laser cutting and other machining)
+    as well as open-source hardware (Arduino, Raspberry).  The possibilities of what can be created during the weekend are just about endless!</p>
+                  <a href="http://www.eventbrite.com/e/startup-weekend-ottawa-uottawa-edition-2-tickets-19866710867" class="btn btn-xs btn-default">Buy Tickets</a>
+                </div>
               </div>
             </div>
           </div>
@@ -265,17 +289,15 @@
       <div class="container" style="max-width: 75%">
           <div class="row">
             <div class="col-sm-12">
-                <h1 style="font-size: 3em; font-weight: 600; border-bottom: 10px solid #3CCF80; margin-top: 59px">Schedule <small>54 hours - 3 Days in November: 18, 19, 20</small></h1>
+                <h1 style="font-size: 3em; font-weight: 600; border-bottom: 10px solid #3CCF80; margin-top: 59px">Schedule <small style="color: white">54 hours - 3 Days - November: 18, 19, 20</small></h1>
                 <!-- <h1 style="font-size: 3em; font-weight: 600; border-bottom: 10px solid #3CCF80; margin-top: 59px">Schedule <small><a href="#schedule-day-1">Day 1</a> | <a href="#schedule-day-2">Day 2</a> | <a href="#schedule-day-3">Day 3</a></small></h1> -->
                 <!-- <div class="page-header">
                   <h1 style="font-size: 3em; font-weight: 600; border-bottom: 10px solid #3CCF80; margin-top: 59px">Schedule <small>Day 1 | Day 2 | Day 3</small></h1>
                 </div> -->
                 <section>
-                  <p class="lead" style="background-color: #3CCF80; color: white; margin-top: 59px">
+                  <h1 style="margin-top: 59px">Friday, November 18, 2016</h1>
+                  <p class="lead" style="background-color: #3CCF80; color: white;">
                     Day 1: Meet, Pitch & Team Up
-                  </p>
-                  <p class="lead">
-                    Friday, November 18, 2016
                   </p>
                   <table class='table schedule-table'>
                       <tr>
@@ -325,11 +347,9 @@
                   </table>
                 </section>
                 <section id="schedule-day-2" style="margin-top: 59px">
+                  <h1 style="margin-top: 59px">Saturday, November 19, 2016</h1>
                   <p class="lead" style="background-color: #3CCF80; color: white;">
                     Day 2: Learn & Work
-                  </p>
-                  <p class="lead">
-                    Saturday, November 19, 2016
                   </p>
                   <table class='table schedule-table'>
                       <tr>
@@ -438,6 +458,69 @@
             </div>
         </div>
       </div>
+  </section>
+  <section id="team">
+    <div class="uottawa-container">
+      <div class="container" style="max-width: 75%">
+          <div class="row">
+              <div class="col-sm-12">
+                <h1 style="font-size: 3em; font-weight: 600; border-bottom: 10px solid #3CCF80; margin-top: 59px">Team</h1>
+                <p class="lead">
+                  We're a dream team!
+                </p>
+                <div class="media">
+                  <div class="media-left">
+                    <img src="img/team/eecs_hanan_anis_0.png" alt="Team Image of Hanan Anis" style="border-radius: 50%;">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Hanan Anis <small>
+                      Professor
+                      <a href="https://twitter.com/uottawa_hanan" target="_blank"><i class="fa fa-twitter social-icons push-icons-up-facilitator white"></i></a>
+                      <a href="https://ca.linkedin.com/in/hanan-anis-5b946b11" target="_blank"><i class="fa fa-linkedin social-icons push-icons-up-facilitator white"></i></a>
+                    </small></h4>
+                    <p>
+                      Hanan Anis is a professor in Electrical and Computer Engineering at the University of Ottawa. She holds an NSERC chair in Entrepreneurial Engineering Design and is also the coordinator of entrepreneurship and innovation in the Faculty of Engineering. Her passion is to help students develop an entrepreneurial mind set and start successful businesses. She has been teaching entrepreneurship, design and innovation for many years. Prior to joining the university, she was the co-founder and Chief Technology Officer at Ceyba, an optical long-haul networking company that employed 250 people at its peak.
+                    </p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section id="sponsors">
+    <div class="uottawa-container">
+      <div class="container" style="max-width: 75%">
+          <div class="row">
+              <div class="col-sm-12">
+                <h1 style="font-size: 3em; font-weight: 600; border-bottom: 10px solid #3CCF80; margin-top: 59px">Sponsors</h1>
+                <div class="media">
+                  <div class="media-left">
+                    <img src="img/sponsors/Michel-Brule-384x384.jpg" alt="Sponsor Image of Michel Brûlé" height="200px" width="200px" style="border-radius: 50%;">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Michel Brûlé <small>President of the board and Anges Québec active member</small></h4>
+                    <p>
+                      Mr. Brûlé obtained both his Bachelor and Master’s degrees in Electrical Engineering from the University of Ottawa. For more than 20 years, he has concurrently pursued careers in both academia and business. In the academia sector, from 1978 until 1995, he was an active contributor to the launch of École de Technologie Supérieure at University of Québec as a Professor, a Research Lab director and Research dean. In the business sector, Mr. Brûlé founded and co-founded six technology companies since 1979, two of which were sold in 2000. His greatest success, Voice-over-ATM technology company InnoMediaLogic Inc., was sold in July 2000 in a transaction honored as “Best VC deal in Canada for year 2000.”
+                    </p>
+                    <p>
+                      Through private VC fund M&M Investments, since 2000 Mr. Brûlé has helped grow start-up companies and created four generations of spin-offs. Mr Brûlé also actively participated in the launch, and in the on-going operations of the very successful Réseau <a href="https://angesquebec.com/en/about/board-of-directors/michel-brule/" target="_blank">Anges Québec</a> which he chairs since September 2015. Recognized by his peers as an Angel Investor “before his time”, Mr. Brûlé was named Canadian Angel Investor of the Year 2010 by the National Angel Capital Organization. In June 2012, he received from the University of Ottawa an Honorary Doctorate degree.
+                    </p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section id="partners">
+    <div class="uottawa-container">
+      <div class="container" style="max-width: 75%">
+          <div class="row">
+              <div class="col-sm-12">
+                <h1 style="font-size: 3em; font-weight: 600; border-bottom: 10px solid #3CCF80; margin-top: 59px">Partners</h1>
+                <a href="http://www.uottawa-sesa.ca" target="_blank"><img id="sesa" src="img/partners/sesa.jpg"></a>
+            </div>
+        </div>
+    </div>
   </section>
 <!-- Scripts -->
 <script src="js/jquery-1.11.1.min.js"></script>
