@@ -46,10 +46,15 @@
     <!-- <link rel="stylesheet" type="text/css" href="css/override.css"> -->
 
     <style type="text/css">
+      body {
+          border-left: 10px solid #3CCF80;
+          border-right: 10px solid #3CCF80;
+      }
       .uottawa-overlay {
         position: relative;
         height: 75vh;
-        width: 100vw;
+        /*width: 100vw;*/
+        width: 100%;
         margin-top: 59px;
       	/*background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../img/intro-bg.jpg');*/
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/pexels-photo-40120.jpeg');
@@ -62,16 +67,16 @@
       .uottawa-video-container {
         margin: 0 auto 0 auto;
       }
-      #about {
+      #about, #categories, #location {
         border-bottom: 10px solid #3CCF80;
       }
     </style>
 </head>
 <!-- Body -->
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top" style="background: #3CCF80">
+  <nav class="navbar navbar-default navbar-fixed-top" style="background: #3CCF80; border-color: transparent;">
     <div class="container">
-      <div class="navbar-header" style="height: 58px">
+      <div class="navbar-header" style="height: 59px">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                   data-target="#bs-example-navbar-collapse-1">
               <span class="sr-only">Toggle navigation</span>
@@ -79,15 +84,17 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
           </button>
-          <img src="img/LC_StartupWeekend_BGLogoSML_RGB_REVERSE-WHT_rgb_224_44.png" alt="Startup Weekend Logo" style="display: none" />
+          <!-- <img src="img/LC_StartupWeekend_BGLogoSML_RGB_REVERSE-WHT_rgb_224_44.png" alt="Startup Weekend Logo" style="display: none" /> -->
+          <img src="img/sw-logo-white.svg" alt="Startup Weekend Logo" style="display: none" />
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <img src="img/LC_StartupWeekend_BGLogoSML_RGB_REVERSE-WHT_rgb_224_44.png" alt="Startup Weekend Logo" />
+          <!-- <img src="img/LC_StartupWeekend_BGLogoSML_RGB_REVERSE-WHT_rgb_224_44.png" alt="Startup Weekend Logo" /> -->
+          <img src="img/sw-logo-white.svg" alt="Startup Weekend Logo" />
           <ul class="nav navbar-nav navbar-right main-nav">
               <li><a href="#about">About</a></li>
               <li><a href="#categories">Categories</a></li>
               <li><a href="#location">Location</a></li>
-              <li><a href="#schedule-background">Schedule</a></li>
+              <li><a href="#schedule">Schedule</a></li>
               <li><a href="http://www.eventbrite.com/e/startup-weekend-ottawa-uottawa-edition-2-tickets-19866710867" class="btn btn-default">Buy Tickets</a></li>
               <li><a href="https://twitter.com/UOStartupWknd" target="_blank"><i id="social-hover" class="fa fa-twitter fa-2x social-hover"></i></a></li>
               <li><a href="https://www.facebook.com/events/1693474737537934/" target="_blank"><i class="fa fa-facebook fa-2x social-hover"></i></a></li>
@@ -98,10 +105,13 @@
   <section id="home" class="uottawa-overlay">
     <div class="uottawa-container">
       <p>
-        <h1 style="color: white;">uOttawa Startup Weekend</h1>
+        <h1 style="color: white; font-size: 4em; font-weight: 700">uOttawa Startup Weekend</h1>
+        <p class="lead" style="color: white;">
+          In just 54 hours, you will experience the highs, lows, fun, and pressure that make up life at a startup.
+        </p>
       </p>
       <p>
-        <h3 style="color: white;">November 18 - 20, 2016 | <a href="#location">Morisset Library</a></h3>
+        <h3 style="color: white;">November 18 - 20, 2016 @ <a href="#location">Morisset Library</a></h3>
       </p>
       <a href="http://www.eventbrite.com/e/startup-weekend-ottawa-uottawa-edition-2-tickets-19866710867" class="btn btn-lg btn-default">Buy Tickets</a>
     </div>
@@ -115,10 +125,14 @@
                   <p class="lead">Startup Weekend is a global network of
                       passionate leaders and entrepreneurs on a mission to inspire, educate, and empower individuals,
                       teams and communities. Come share ideas, form teams, and launch startups.</p>
-                  <div class="container">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/28872840" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <p><a href="https://vimeo.com/28872840">Startup Weekend - Trailer</a> from <a href="https://vimeo.com/eighteeneighty">Eighteen Eighty</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                      </div>
+                  <!-- <div class="container">
                     <iframe src="https://player.vimeo.com/video/28872840" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     <p><a href="https://vimeo.com/28872840">Startup Weekend - Trailer</a> from <a href="https://vimeo.com/eighteeneighty">Eighteen Eighty</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-                  </div>
+                  </div> -->
                   <p class="lead">We're excited to bring you the third Startup
                       Weekend uOttawa! This edition of Startup Weekend focuses on current uOttawa students, and recent graduates.Our goal is to connect students across all faculties to encourage and
                       promote entrepreneurship regardless of discipline of study. We look forward to seeing the different
@@ -133,9 +147,9 @@
       </div>
     </div>
   </section>
-  <section>
-    <div class="uottawa-container" id="categories">
-      <div class="container">
+  <section id="categories">
+    <div class="uottawa-container">
+      <div class="container" style="max-width: 75%">
         <div class="row">
           <div class="col-sm-12">
             <h1 style="font-size: 3em; font-weight: 600; border-bottom: 10px solid #3CCF80; margin-top: 59px">Categories</h1>
@@ -147,94 +161,284 @@
             </p>
           </div>
           <div class="col-xs-12 col-md-3 col-md-offset-3 category-column">
-              <figure>
-                  <img src="img/icons/urban_agriculture.png" alt="Social Impact" height="100" />
-              </figure>
-              <h4>Social Impact</h4>
-              <p class="category-description">This category focuses on the area of social entrepreneurship and  inspiring socially sustainable models and cause-based businesses. Dare to think differently and be a difference maker.  Create sustainable businesses that create a positive social impact! Consider causes like:
-                <ul>
-                  <li>Environment</li>
-                  <li>Poverty & Homelessness</li>
-                  <li>Vulnerable communities</li>
-                </ul>
-              </p>
+            <div class="thumbnail">
+              <img src="img/icons/urban_agriculture.png" alt="Social Impact" height="100" />
+              <div class="caption">
+                <h4>Social Impact</h4>
+                <p class="category-description">This category focuses on the area of social entrepreneurship and  inspiring socially sustainable models and cause-based businesses. Dare to think differently and be a difference maker.  Create sustainable businesses that create a positive social impact! Consider causes like:
+                  <ul>
+                    <li>Environment</li>
+                    <li>Poverty & Homelessness</li>
+                    <li>Vulnerable communities</li>
+                  </ul>
+                </p>
+                <a href="http://www.eventbrite.com/e/startup-weekend-ottawa-uottawa-edition-2-tickets-19866710867" class="btn btn-xs btn-default">Buy Tickets</a>
+              </div>
+            </div>
           </div>
           <div class="col-xs-12 col-md-3 category-column">
-              <figure>
-                  <img src="img/icons/print.png" alt="Makers Category">
-              </figure>
-              <h4>Makers</h4>
-              <p class="category-description">This category is focused on building physical prototypes during the weekend. To do this, you will have equipment available (3D printer, laser cutting and other machining)
-as well as open-source hardware (Arduino, Raspberry).  The possibilities of what can be created during the weekend are just about endless!</p>
+            <div class="thumbnail">
+              <img src="img/icons/print.png" alt="Makers Category">
+              <div class="caption">
+                <h4>Makers</h4>
+                <p class="category-description">This category is focused on building physical prototypes during the weekend. To do this, you will have equipment available (3D printer, laser cutting and other machining)
+  as well as open-source hardware (Arduino, Raspberry).  The possibilities of what can be created during the weekend are just about endless!</p>
+                <a href="http://www.eventbrite.com/e/startup-weekend-ottawa-uottawa-edition-2-tickets-19866710867" class="btn btn-xs btn-default">Buy Tickets</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section id="location" class="section">
-      <div class="container">
-          <div class="row text-center title">
-              <div class="col-xs-12">
-                  <h2 id="location-title">Location</h2>
-                  <h4 class="light muted">We'll be taking place at the University of Ottawa Campus!</h4>
-              </div>
-          </div>
-          <div class="row location">
-              <div class="col-xs-12 col-lg-7 text-center">
-                  <div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.31369514608!2d-75.6858181347143!3d45.423177444201244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0507caa88cf9%3A0xe1237af3217776c9!2sMorisset+Library!5e0!3m2!1sen!2sca!4v1471026112130'
-                                                       width='500' height='450' frameborder='0' style='border:0' allowfullscreen></iframe></div>
-              </div>
-              <div class="col-xs-12 col-lg-5 text-center textContainer">
-                  <address>
-                      Friday, November 18-20, 2016<br>
-                      Event starts at 6:30 pm<br><br>
-
-                      University of Ottawa - Morisset Library<br>
-                      65 University Private<br>
-                      Media Centre<br>
-                      Ottawa, Ontario K1N 6N5
-                  </address>
-              </div>
-          </div>
+  <section id="location">
+    <div class="uottawa-container">
+      <div class="container" style="max-width: 75%">
           <div class="row">
-              <h4 class="light muted text-center" id="share-friends">Share with your friends!</h4>
-              <a href="https://twitter.com/UOStartupWknd">
-                  <div class="col-md-4" style="margin-top: 0px;">
-                      <div class="service">
-                          <div class="icon-holder">
-                              <i class="fa fa-twitter fa-4x share-icons"></i>
-                          </div>
-                          <h4 class="heading">Twitter</h4>
-                          <p class="description">Share Startup Weekend on Twitter!</p>
-                      </div>
+              <div class="col-sm-12">
+                  <h1 style="font-size: 3em; font-weight: 600; border-bottom: 10px solid #3CCF80; margin-top: 59px">Location</h1>
+                  <p class="lead">We'll be taking place at the University of Ottawa Campus!</p>
+              </div>
+              <div class="row">
+                  <div class="col-xs-12 col-lg-7 text-center">
+                      <div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.31369514608!2d-75.6858181347143!3d45.423177444201244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0507caa88cf9%3A0xe1237af3217776c9!2sMorisset+Library!5e0!3m2!1sen!2sca!4v1471026112130'
+                                                           width='500' height='450' frameborder='0' style='border:0' allowfullscreen></iframe></div>
                   </div>
-              </a>
-              <a href="https://www.facebook.com/events/1693474737537934/">
-                  <div class="col-md-4">
-                      <div class="service">
-                          <div class="icon-holder">
-                              <i class="fa fa-facebook fa-4x share-icons"></i>
-                          </div>
-                          <h4 class="heading">Facebook</h4>
-                          <p class="description">Share Startup Weekend on Facebook!</p>
+                  <div class="col-xs-12 col-lg-5">
+                    <div class="panel panel-default">
+                      <div class="panel-heading" style="background-color: #3CCF80">Event Details</div>
+                      <div class="panel-body">
+                        <p class="lead">Friday, November 18-20, 2016 <br/>
+                        Event starts at 6:30 pm<br/><br/>
+
+                        University of Ottawa - Morisset Library<br/>
+                        65 University Private<br/>
+                        Media Centre<br/>
+                        Ottawa, Ontario K1N 6N5
+                      </p>
                       </div>
+                    </div>
                   </div>
-              </a>
-              <a href="mailto:">
-                  <div class="col-md-4">
-                      <div class="service">
-                          <div class="icon-holder">
-                              <i class="fa fa-envelope fa-4x share-icons"></i>
+              </div>
+              <div class="row">
+                  <h4 class="light muted text-center" id="share-friends">Share with your friends!</h4>
+                  <a href="https://twitter.com/UOStartupWknd">
+                      <div class="col-md-4" style="margin-top: 0px;">
+                          <div class="service">
+                              <div class="icon-holder">
+                                  <i class="fa fa-twitter fa-4x share-icons"></i>
+                              </div>
+                              <h4 class="heading">Twitter</h4>
+                              <p class="description">Share Startup Weekend on Twitter!</p>
                           </div>
-                          <h4 class="heading">Email</h4>
-                          <p class="description">Share Startup Weekend by email!</p>
                       </div>
-                  </div>
-              </a>
+                  </a>
+                  <a href="https://www.facebook.com/events/1693474737537934/">
+                      <div class="col-md-4">
+                          <div class="service">
+                              <div class="icon-holder">
+                                  <i class="fa fa-facebook fa-4x share-icons"></i>
+                              </div>
+                              <h4 class="heading">Facebook</h4>
+                              <p class="description">Share Startup Weekend on Facebook!</p>
+                          </div>
+                      </div>
+                  </a>
+                  <a href="mailto:">
+                      <div class="col-md-4">
+                          <div class="service">
+                              <div class="icon-holder">
+                                  <i class="fa fa-envelope fa-4x share-icons"></i>
+                              </div>
+                              <h4 class="heading">Email</h4>
+                              <p class="description">Share Startup Weekend by email!</p>
+                          </div>
+                      </div>
+                  </a>
+              </div>
           </div>
       </div>
+    </div>
   </section>
-
+  <section id="schedule">
+    <div class="uottawa-container">
+      <div class="container" style="max-width: 75%">
+          <div class="row">
+            <div class="col-sm-12">
+                <h1 style="font-size: 3em; font-weight: 600; border-bottom: 10px solid #3CCF80; margin-top: 59px">Schedule <small>54 hours - 3 Days in November: 18, 19, 20</small></h1>
+                <!-- <h1 style="font-size: 3em; font-weight: 600; border-bottom: 10px solid #3CCF80; margin-top: 59px">Schedule <small><a href="#schedule-day-1">Day 1</a> | <a href="#schedule-day-2">Day 2</a> | <a href="#schedule-day-3">Day 3</a></small></h1> -->
+                <!-- <div class="page-header">
+                  <h1 style="font-size: 3em; font-weight: 600; border-bottom: 10px solid #3CCF80; margin-top: 59px">Schedule <small>Day 1 | Day 2 | Day 3</small></h1>
+                </div> -->
+                <section>
+                  <p class="lead" style="background-color: #3CCF80; color: white; margin-top: 59px">
+                    Day 1: Meet, Pitch & Team Up
+                  </p>
+                  <p class="lead">
+                    Friday, November 18, 2016
+                  </p>
+                  <table class='table schedule-table'>
+                      <tr>
+                          <td width="20%"><p class="lead">6:30 PM</p></td>
+                          <td width="30%"><p class="lead">Registration</p></td>
+                          <td width="50%"><p class="lead">Arrive at the venue and get checked
+                              in</p></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">7:00 PM</p></td>
+                          <td width="30%"><p class="lead">Dinner & Networking</p></td>
+                          <td width="50%"><p class="lead">Eat food, share ideas, practice
+                              pitches, get to know fellow participants</p></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">7:20 PM</p></td>
+                          <td width="30%"><p class="lead">Welcome & Speakers</p></td>
+                          <td width="50%"><p class="lead">Review agenda for the weekend and
+                              introduce speakers, coaches, and community leaders</p></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">7:30 PM</p></td>
+                          <td width="30%"><p class="lead">Pitches Start</p></td>
+                          <td width="50%"><p class="lead">Optionally line up to give your
+                              pitch</p></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">9:00 PM</p></td>
+                          <td width="30%"><p class="lead">Voting</p></td>
+                          <td width="50%"><p class="lead">Attendees vote for the top
+                              pitches</p></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">9:15 PM</p></td>
+                          <td width="30%"><p class="lead">Form Teams</p></td>
+                          <td width="50%"><p class="lead">Teams start forming and discussing
+                              ideas</p></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">10:00 PM</p></td>
+                          <td width="30%"><p class="lead">Begin Work</p></td>
+                          <td width="50%"><p class="lead">Start to formalize teams and take an
+                              inventory of skills. Be honest, and direct about what resources and skills are
+                              needed for the weekend. You may stay and work as late as the venue will
+                              allow</p></td>
+                      </tr>
+                  </table>
+                </section>
+                <section id="schedule-day-2" style="margin-top: 59px">
+                  <p class="lead" style="background-color: #3CCF80; color: white;">
+                    Day 2: Learn & Work
+                  </p>
+                  <p class="lead">
+                    Saturday, November 19, 2016
+                  </p>
+                  <table class='table schedule-table'>
+                      <tr>
+                          <td width="20%"><p class="lead">9:00 AM</p></td>
+                          <td width="30%"><p class="lead">Breakfast</p></td>
+                          <td width="50%"><p class="lead">Arrive, simple breakfast & coffee</p></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">9:30 AM</p></td>
+                          <td width="30%"><p class="lead">Begin Work</p></td>
+                          <td width="50%"><p class="lead">Teams formed and setting up workspace for the weekend</p></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">12:00 PM</p></td>
+                          <td width="30%"><p class="lead">Lunch</p></td>
+                          <td width="50%"><p class="lead"></p></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">1:00 PM</p></td>
+                          <td width="30%"><p class="lead">Check-In</p></td>
+                          <td width="50%"><p class="lead">After-lunch check-in, status reports, call for help</p></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">2:00 PM</p></td>
+                          <td width="30%"><p class="lead">Coach Meetings</p></td>
+                          <td width="50%"><p class="lead">Coaches help teams one-on-one. They are here to help!</p></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">6:30 PM</p></td>
+                          <td width="30%"><p class="lead">Dinner</p></td>
+                          <td width="50%"><p class="lead"></p></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">7:30 PM</p></td>
+                          <td width="30%"><p class="lead">Check-In</p></td>
+                          <td width="50%"><p class="lead">After-dinner check-in, status reports, call for help</p></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">10:00 PM</p></td>
+                          <td width="30%"><p class="lead">Wrap-Up</p></td>
+                          <td width="50%"><p class="lead">Finished for the day. You may stay and work as late as the venue will allow</p></td>
+                      </tr>
+                  </table>
+                </section>
+                <section id="schedule-day-3">
+                  <p class="lead" style="background-color: #3CCF80; color: white; margin-top: 59px">
+                    Day 3: Present & Choose <br/>
+                  </p>
+                  <p class="lead">
+                    Sunday, November 20, 2016
+                  </p>
+                  <table class='table schedule-table'>
+                      <tr>
+                          <td width="20%"><p class="lead">9:00 AM</p></td>
+                          <td width="30%"><p class="lead">Breakfast</p></td>
+                          <td width="50%"><p class="lead">Arrive, simple breakfast & coffee</p></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">10:00 AM</p></td>
+                          <td width="30%"><p class="lead">Check-in</p></td>
+                          <td width="50%"><p class="lead">Coaches arrive. Final opportunity to ask questions</p></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">12:00 PM</p></td>
+                          <td width="30%"><p class="lead">Lunch</p></td>
+                          <td width="50%"><p class="lead"></p></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">12:30 PM</p></td>
+                          <td width="30%"><p class="lead">Coach Meetings</p></td>
+                          <td width="50%"><p class="lead">Coaches arrive… ASK QUESTIONS</p></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">3:00 PM</p></td>
+                          <td width="30%"><p class="lead">Presentation Prep & Tech Check</p></td>
+                          <td width="50%"><p class="lead">Final hours of worktime should be focused on perfecting your presentation,
+                              tech-check for final presentations also takes place</p></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">4:00 PM</p></td>
+                          <td width="30%"><p class="lead">Dinner</p></td>
+                          <td width="50%"><p class="lead"></p></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">5:00 PM</p></td>
+                          <td width="30%"><p class="lead">Final Presentations</p></td>
+                          <td width="50%"><p class="lead"></p></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">7:30 PM</h3></td>
+                          <td width="30%"><p class="lead">Judging & Awards</h4></td>
+                          <td width="50%"><p class="lead"></h4></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">8:30 PM</h3></td>
+                          <td width="30%"><p class="lead">Wrap-up</h4></td>
+                          <td width="50%"><p class="lead"></h4></td>
+                      </tr>
+                      <tr>
+                          <td width="20%"><p class="lead">9:00 PM</h3></td>
+                          <td width="30%"><p class="lead">Go-home!</h4></td>
+                          <td width="50%"><p class="lead"></h4></td>
+                      </tr>
+                  </table>
+                </section>
+            </div>
+        </div>
+      </div>
+  </section>
 <!-- Scripts -->
 <script src="js/jquery-1.11.1.min.js"></script>
 <!-- <script src="js/owl.carousel.min.js"></script> -->

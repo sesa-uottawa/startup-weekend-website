@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
 body {
 	font-family: 'Roboto', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
 	font-size: 14px;
@@ -191,7 +191,7 @@ nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 }
 /* Buttons */
 
-/*.btn {
+.btn {
 	font-size: 18px;
 	display: inline-block;
 	padding: 15px 30px;
@@ -201,7 +201,7 @@ nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 	background: transparent;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
-}*/
+}
 
 .btn:hover,
 .btn:focus {
