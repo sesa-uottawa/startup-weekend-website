@@ -360,6 +360,14 @@ section {
 			url('../img/table-3-image.jpg');
 }
 
+.intro-table-4 {
+	background-image:
+			linear-gradient(
+					rgba(232, 178, 12, 0.8),
+					rgba(1, 130, 198, 0.8)),
+			url('../img/table-4-image.jpg');
+}
+
 .intro-table-hover .expand {
 	margin: 30px;
 	margin-top: 120px;
