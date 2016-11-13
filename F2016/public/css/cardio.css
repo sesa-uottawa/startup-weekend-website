@@ -681,10 +681,10 @@ section {
 /* Footer */
 
 footer {
-	padding: 140px 0 40px;
+	/*padding: 140px 0 40px;
 	background: url('../img/footer.jpg');
 	-webkit-background-size: cover;
-	background-size: cover;
+	background-size: cover;*/
 }
 
 footer .trial-button {
