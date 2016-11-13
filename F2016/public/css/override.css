@@ -64,7 +64,7 @@ body {
 			url('../img/banner-bg.jpg');
 	background-size: cover;
 	padding-bottom: 100px;
-	
+
 }
 
 #video-section {
@@ -75,7 +75,7 @@ body {
 			linear-gradient(
 					rgba(0, 0, 0, 0.75),
 					rgba(0, 0, 0, 0.75)),
-			url('../img/video-background.jpg');
+			url('../img/video-background-low.jpg');
 	background-size: cover;
 	padding-bottom: 100px;
 }
@@ -101,10 +101,10 @@ body {
 }
 
 #startup-weekend-description2 {
-	text-align:left; 
-	background-color:white; 
-	padding:30px; 
-	border-radius: 10px; 
+	text-align:left;
+	background-color:white;
+	padding:30px;
+	border-radius: 10px;
 	font-size:25px;
 }
 
@@ -242,7 +242,7 @@ body {
 }
 
 .social-icons:hover {
-	transform: scale(1.5); 
+	transform: scale(1.5);
 }
 
 .social-icon-wrapper {
@@ -264,8 +264,8 @@ body {
 }
 
 
-.textContainer { 
-    height: 430px; 
+.textContainer {
+    height: 430px;
     line-height: 400px;
 }
 
