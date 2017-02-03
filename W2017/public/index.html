@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>uOttawa Startup Weekend</title>
+    <meta name="description"
+          content="University of Ottawa Exclusive Startup Weekend"/>
+    <meta name="keywords" content="html template, css, free, one page, gym, fitness, web design"/>
+    <meta name="author" content=""/>
+    <!-- Favicons (created with http://realfavicongenerator.net/)-->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Preconnect -->
+    <link href='https://fonts.gstatic.com' rel='preconnect' crossorigin>
+    <link href='https://f.vimeocdn.com' rel='preconnect' crossorigin>
+    <link href='https://player.vimeo.com' rel='preconnect' crossorigin>
+    <!-- Preload stuff -->
+    <link rel="preload" as=image href="/img/startupweekend-logo-white.png">
+    <link rel="preload" as=image href="/img/uottawa-horizontal-black.png">
+    <link rel="preload" as=image href="/img/uottawa.png">
+    <link rel="preload" as=image href="/img/team/team-cover1.jpg">
+    <link rel="preload" as=image href="/img/team/team-cover4.jpg">
+    <link rel="preload" as=image href="/img/team/team-cover5.jpg">
+    <link rel="preload" as=image href="/img/team/team-cover6.jpg">
+    <link rel="preload" as=image href="/img/time-bg.jpg">
+    <link rel="preload" as=image href="/img/table-1-image.jpg">
+    <link rel="preload" as=image href="/img/table-2-image.jpg">
+    <link rel="preload" as=image href="/img/table-3-image.jpg">
+    <link rel="preload" as=image href="/img/table-4-image.jpg">
+    <link rel="preload" as=image href="/img/partners/sesa-low.jpg">
+    <link rel="preload" as=image href="/img/speakers/aydin-mirzaee.png">
+    <!-- Style -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <style>
+      .judge-name {
+        margin-top: 0.625em;
+        font-size: 1.313em;
+        font-weight: 600;
+      }
+      .judge-role {
+        font-weight: 400;
+      }
+      .judge-social{
+        height: 1.250em;
+      }
+      .judge-judging{
+        font-weight: 200;
+        margin-bottom: 0.625em;
+      }
+      .mentor-image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .coaches-mentor-name{
+        font-size: 1.313em;
+        font-weight: 600;
+      }
+      .coaches-mentor-role{
+        font-weight: 400;
+      }
+    </style>
+</head>
+<!-- Body -->
+<body>
+
+<!-- Loading GIF -->
+<div class="preloader">
+    <img src="img/loader.gif" alt="Preloader image">
+</div>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="img/uottawa-horizontal.png" data-active-url="img/uottawa-horizontal-black.png" alt="" style="height:44px;">
+            </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right main-nav">
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#schedule-background">Schedule</a></li>
+                <li><a href="#speaker">Speaker</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="http://www.eventbrite.com/e/startup-weekend-ottawa-tickets-24332770973" class="btn btn-blue">Buy Tickets</a></li>
+                <li><a href="https://twitter.com/UOStartupWknd" target="_blank"><i id="social-hover" class="fa fa-twitter fa-2x social-hover"></i></a></li>
+                <li><a href="https://www.facebook.com/events/1358385600849660/" target="_blank"><i class="fa fa-facebook fa-2x social-hover"></i></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<header id="intro">
+    <div class="container">
+        <div class="table">
+            <div class="header-text">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <img id="uottawa-logo" src="img/uottawa.png">
+                        <br>
+                        <img id="startup-logo" src="img/startupweekend-logo-white.png">
+                        <br>
+                        <h4 id="dms-location">November 18 - 20, 2016 | Morisset Library | MRT 150</h4>
+                        <a href="http://www.eventbrite.com/e/startup-weekend-ottawa-tickets-24332770973" class="btn btn-blue">Buy Tickets</a>
+                        <!-- <h2 class="white typed">Learn, Network, Startup.</h2> -->
+                        <!-- <span class="typed-cursor">|</span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- 4 ticket categories -->
+<section>
+    <div class="cut cut-top"></div>
+    <div class="container" id="intro-tables-container">
+        <div class="row intro-tables">
+            <div class="col-xs-12 col-md-3">
+                <div class="intro-table intro-table-second intro-table-hover">
+                    <center><h3 class="white heading hide-hover">Technical</h3></center>
+                    <div class="bottom text-center">
+                        <h4 class="white heading small-heading no-margin regular ticket-type">This ticket type applies to hardware or software developers.</h4>
+                        <a href="http://www.eventbrite.com/e/startup-weekend-ottawa-tickets-24332770973" class="btn btn-white-fill expand">Register</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <div class="intro-table intro-table-first intro-table-hover">
+                    <center><h3 class="white heading hide-hover">Designer</h3></center>
+                    <div class="bottom text-center">
+                        <h4 class="white heading small-heading no-margin regular ticket-type">This ticket type applies to anybody with a background in design (graphics, UX/UI, etc.).</h4>
+                        <a href="http://www.eventbrite.com/e/startup-weekend-ottawa-tickets-24332770973" class="btn btn-white-fill expand">Register</a>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-xs-12 col-md-3">
+                <div class="intro-table intro-table-third intro-table-hover">
+                    <center><h3 class="white heading hide-hover">Business</h3></center>
+                    <div class="bottom text-center">
+                        <h4 class="white heading small-heading no-margin regular ticket-type">This ticket type applies to business, marketing & PR, and anyone with a non-technical background.</h4>
+                        <a href="http://www.eventbrite.com/e/startup-weekend-ottawa-tickets-24332770973" class="btn btn-white-fill expand">Register</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <div class="intro-table intro-table-4 intro-table-hover">
+                    <center><h3 class="white heading hide-hover">Other Expertise</h3></center>
+                    <div class="bottom text-center">
+                        <h4 class="white heading small-heading no-margin regular ticket-type">This ticket type applies to any other domains.</h4>
+                        <a href="http://www.eventbrite.com/e/startup-weekend-ottawa-tickets-24332770973" class="btn btn-white-fill expand">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cut cut-bottom" id="second-cut"></div>
+</section>
+
+<!-- PULL UP THE DIV TO MAKE CUT APPEAR BEHIND ABOVE DIV -->
+<div id="push-up-divs">
+    <!-- About section -->
+    <section id="about" class="section gray-bg">
+        <div class="container">
+            <div class="row title text-center">
+                <div class="col-sm-12">
+                    <h2 id="what-is-startup" class="white">What is Startup Weekend Ottawa?</h2>
+                    <h4 id="startup-weekend-description" class="light white">University of Ottawa is proud to host Startup Weekend Ottawa open to the entire startup community!  </h4><br>
+                    <h4 id="startup-weekend-description2" class="light black" style="color: #333333">In an effort to make the event more accessible to students and alumni in the Capital Region, the Faculty of Engineering has subsidized tickets for this special event. <em><strong>NOTE</strong>: All uOttawa students that attend the entire event are able to receive a reimbursement for the cost of their ticket.</em></h4>
+                    <h4 id="startup-weekend-description2" class="light black" style="color: #333333">This is an official Global Entrepreneurship Week event that aims to connect University of Ottawa, and other students across all faculties to encourage and promote entrepreneurship regardless of discipline of study while connecting these students to Ottawa's startup community. </h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4 different startup categories -->
+    <section id="categories">
+        <h2 id="categories-title" class="text-center section-title">Categories</h2>
+        <h4 id="build-a-startup" class="text-center light">
+            While the purpose of a Start up Weekend is about the experience, we've added a bit more! We've put together a prize package (including $1,000) for the best team based on the Sunday pitch. In addition, we've created three individual categories that you can choose to compete in - each category comes with an additional $500 prize package.
+            <b>And yes, you can compete in multiple categories!</b>
+        </h4>
+        <div class="row" style="max-width: 75%; margin: auto">
+          <div class="col-xs-12 col-md-4 category-column">
+              <figure>
+                  <img src="img/icons/urban_agriculture_2.png" alt="Social Impact" height="100" />
+              </figure>
+              <h4>Social Impact</h4>
+              <p class="category-description">This category focuses on the area of social entrepreneurship and  inspiring socially sustainable models and cause-based businesses. Dare to think differently and be a difference maker.  Create sustainable businesses that create a positive social impact! Consider causes like:
+                <ul>
+                  <li>Environment</li>
+                  <li>Poverty & Homelessness</li>
+                  <li>Vulnerable communities</li>
+                </ul>
+              </p>
+          </div>
+            <div class="col-xs-12 col-md-4 category-column">
+                <figure>
+                    <img src="img/icons/mobile-health.png" alt="SMobile health" height="100" />
+                </figure>
+                <h4>Mobile health</h4>
+                <p class="category-description">Mobile health is a term used for the practice of medicine and public health supported by mobile devices.  Mobile Health apps can collect community and clinical health data, deliver healthcare information to practitioners, researchers, and patients, monitor patient vital signs, and directly provision care (via mobile telemedicine).
+                </p>
+            </div>
+            <div class="col-xs-12 col-md-4 category-column">
+                <figure>
+                    <img src="img/icons/print.png" alt="Makers Category">
+                </figure>
+                <h4>Makers</h4>
+                <p class="category-description">This category is focused on building physical prototypes during the weekend. To do this, you will have equipment available (3D printer, laser cutting and other machining)
+ as well as open-source hardware (Arduino, Raspberry).  The possibilities of what can be created during the weekend are just about endless!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vimeo responsive video embed-->
+    <section id="video-section">
+        <h2 id="video-title" class="text-center section-title">See what it's all about!</h2>
+        <div id="video-background" class="row text-center">
+            <div id="video-container">
+                <div class='embed-container'>
+                    <iframe src='https://player.vimeo.com/video/28872840' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location of event -->
+    <section id="location" class="section">
+        <div class="container">
+            <div class="row text-center title">
+                <div class="col-xs-12">
+                    <h2 id="location-title">Location</h2>
+                    <h4 class="light muted">We'll be taking place at the University of Ottawa Campus!</h4>
+                </div>
+            </div>
+            <div class="row location">
+                <div class="col-xs-12 col-lg-7 text-center">
+                    <div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.31369514608!2d-75.6858181347143!3d45.423177444201244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0507caa88cf9%3A0xe1237af3217776c9!2sMorisset+Library!5e0!3m2!1sen!2sca!4v1471026112130'
+                                                         width='500' height='450' frameborder='0' style='border:0' allowfullscreen></iframe></div>
+                </div>
+                <div class="col-xs-12 col-lg-5 text-center textContainer">
+                    <address>
+                        Friday, November 18-20, 2016<br>
+                        Event starts at 6:30 pm<br><br>
+
+                        MRT 150 <br>
+                        University of Ottawa - Morisset Library<br>
+                        65 University Private<br>
+                        Media Centre<br>
+                        Ottawa, Ontario K1N 6N5
+                    </address>
+                </div>
+            </div>
+            <div class="row">
+                <h4 class="light muted text-center" id="share-friends">Share with your friends!</h4>
+                <a href="https://twitter.com/UOStartupWknd">
+                    <div class="col-md-4" style="margin-top: 0px;">
+                        <div class="service">
+                            <div class="icon-holder">
+                                <i class="fa fa-twitter fa-4x share-icons"></i>
+                            </div>
+                            <h4 class="heading">Twitter</h4>
+                            <p class="description">Share Startup Weekend on Twitter!</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/events/1358385600849660/">
+                    <div class="col-md-4">
+                        <div class="service">
+                            <div class="icon-holder">
+                                <i class="fa fa-facebook fa-4x share-icons"></i>
+                            </div>
+                            <h4 class="heading">Facebook</h4>
+                            <p class="description">Share Startup Weekend on Facebook!</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="mailto:">
+                    <div class="col-md-4">
+                        <div class="service">
+                            <div class="icon-holder">
+                                <i class="fa fa-envelope fa-4x share-icons"></i>
+                            </div>
+                            <h4 class="heading">Email</h4>
+                            <p class="description">Share Startup Weekend by email!</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule section -->
+    <section id="schedule-background">
+        <div class="container">
+            <div class="row opening-hours">
+                <div class="col-sm-12 text-center-mobile">
+                    <h3 id="event-schedule-title" class="white">Event Schedule <span class="open-blink"></span></h3>
+                    <!-- Day 1 Schedule -->
+                    <div class="row schedule-button">
+                        <button type="button" class="btn-default btn-info btn-block change-background"
+                                data-img="img/time-bg-2.jpg" data-toggle="collapse" data-target="#demo1">Friday, November 18th <i class="fa fa-plus"></i></button>
+                        <div id="demo1" class="collapse">
+                            <table class='table schedule-table'>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">6:00 pm</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Registration</h4></td>
+                                    <td width="50%"><h4 class="super-light white">Arrive at the venue and get checked in. Eat food, share ideas, practice pitches, get to know fellow participants</h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">6:30 pm</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Welcome & Keynote</h4></td>
+                                    <td width="50%"><h4 class="super-light white">Event kicks off with a special keynote from Aydin Mirzaee, Founder of FluidReview and University of Ottawa alumnus.</h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">7:00 PM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">The Rundown / Weekend Overview</h4></td>
+                                    <td width="50%"><h4 class="super-light white">Review agenda for the weekend and introduce speakers, coaches, and community leaders</h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">7:30 PM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Pitches Start</h4></td>
+                                    <td width="50%"><h4 class="super-light white">Optionally line up to give your pitch</h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">8:15 PM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Voting</h4></td>
+                                    <td width="50%"><h4 class="super-light white">Attendees vote for the top pitches</h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">8:30 PM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Form Teams</h4></td>
+                                    <td width="50%"><h4 class="super-light white">Teams start forming and discussing ideas</h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">9:00 PM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Begin Work</h4></td>
+                                    <td width="50%"><h4 class="super-light white">Start to formalize teams and take an inventory of skills. Be honest, and direct about what resources and skills are needed for the weekend. You may stay and work as late as the venue will allow.</h4></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- Day 2 Schedule -->
+                    <div class="row schedule-button">
+                        <button type="button" class="btn-default btn-success btn-block change-background"
+                                data-img="img/time-bg-3.jpg" data-toggle="collapse" data-target="#demo2">Saturday, November 19th <i class="fa fa-plus"></i></button>
+                        <div id="demo2" class="collapse">
+                            <table class='table schedule-table'>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">9:00 AM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Breakfast</h4></td>
+                                    <td width="50%"><h4 class="super-light white">Arrive, simple breakfast & coffee</h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">9:30 AM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Begin Work</h4></td>
+                                    <td width="50%"><h4 class="super-light white">Teams formed and setting up workspace for the weekend</h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">12:00 PM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Lunch</h4></td>
+                                    <td width="50%"><h4 class="super-light white"></h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">1:00 PM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Check-In</h4></td>
+                                    <td width="50%"><h4 class="super-light white">After-lunch check-in, status reports, call for help</h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">2:00 PM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Coach Meetings</h4></td>
+                                    <td width="50%"><h4 class="super-light white">Coaches help teams one-on-one. They are here to help!</h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">6:30 PM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Dinner</h4></td>
+                                    <td width="50%"><h4 class="super-light white"></h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">7:30 PM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Check-In</h4></td>
+                                    <td width="50%"><h4 class="super-light white">After-dinner check-in, status reports, call for help</h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">10:00 PM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Wrap-Up</h4></td>
+                                    <td width="50%"><h4 class="super-light white">Finished for the day. You may stay and work as late as the venue will allow</h4></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- Day 3 Schedule -->
+                    <div class="row schedule-button">
+                        <button type="button" class="btn-default btn-danger btn-block change-background"
+                                data-img="img/time-bg-4.jpg" data-toggle="collapse" data-target="#demo3">Sunday, November 20th <i class="fa fa-plus"></i></button>
+                        <div id="demo3" class="collapse">
+                            <table class='table schedule-table'>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">9:00 AM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Breakfast</h4></td>
+                                    <td width="50%"><h4 class="super-light white">Arrive, simple breakfast & coffee</h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">10:00 AM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Check-in</h4></td>
+                                    <td width="50%"><h4 class="super-light white">Coaches arrive. Final opportunity to ask questions</h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">12:00 PM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Lunch</h4></td>
+                                    <td width="50%"><h4 class="super-light white"></h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">12:30 PM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Coach Meetings</h4></td>
+                                    <td width="50%"><h4 class="super-light white">Coaches arrive… ASK QUESTIONS</h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">3:00 PM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Presentation Prep & Tech Check</h4></td>
+                                    <td width="50%"><h4 class="super-light white">Final hours of worktime should be focused on perfecting your presentation,
+                                        tech-check for final presentations also takes place</h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">5:00 PM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Final Presentation | Registration</h4></td>
+                                    <td width="50%"><h4 class="super-light white">The general public is invited to watch the final pitches.</h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">5:30 PM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Final Presentation | Welcome & Pitches</h4></td>
+                                    <td width="50%"><h4 class="super-light white">Teams deliver their final pitch to the community.</h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">7:30 PM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Judging & Awards</h4></td>
+                                    <td width="50%"><h4 class="super-light white"></h4></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"><h3 class="regular white">8:00 PM</h3></td>
+                                    <td width="30%"><h4 class="super-light white">Wrap-Up</h4></td>
+                                    <td width="50%"><h4 class="super-light white"></h4></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="speaker" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="col-md-4">
+              <img src="/img/speakers/aydin-mirzaee.png" alt="Picture of Aydin Mirzaee" />
+            </div>
+            <div class="col-md-8">
+              <h1>Our Speaker</h1>
+              <h2>Aydin Mirzaee</h2>
+              <h3>Director of Product, Survey Monkey</h3>
+              <p class="lead">
+                Aydin Mirzaee co-founded Fluidware in 2008 which was responsible for running two very successful SaaS businesses: <a href="http://FluidSurveys.com" target="_blank">FluidSurveys</a> & <a href="http://FluidReview.com" target="_blank">FluidReview</a>. The company was bootstrapped and grew to a $12M run-rate and over 90 people in staff. After 6.5 years, Fluidware was acquired by SurveyMonkey (the world's leading online survey company). Aydin currently serves as General Manager of FluidReview within SurveyMonkey.
+              </p>
+              <p class="lead">
+                Aydin is also the co-founder of <a href="http://FreshFounders.com" target="_blank">FreshFounders</a>, a non-profit organization with the vision to create a community of young entrepreneurs in every city around the world.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="judges" class="section gray-bg">
+      <div class="container">
+        <div class="row title text-center">
+          <h1 class="margin-top-50">Our judges</h1>
+          <h4 class="light muted">They are industry leaders</h4>
+        </div>
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <img src="/img/judges/mikael-charette.jpg" alt="Mikaël Charette Photo" style="max-height: 100px; max-width: 100px; border-radius: 50%" />
+            <div class="judge-name">
+              <a href="http://www.wellfundedenterprise.com/bio-mc" target="_blank">Mikaël Charette</a>
+            </div>
+            <div class="judge-social">
+              <a href="https://twitter.com/mikcharette" target="_blank"><i class="fa fa-twitter"></i></a>
+            </div>
+            <div class="judge-role">
+              COO, <a href="http://www.wellfundedenterprise.com/" target="_blank">WEllFunded</a>
+            </div>
+            <div class="judge-judging">
+              Judging: General
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <img src="/img/judges/david-knox.png" alt="David Knox Photo" style="max-height: 100px; max-width: 100px; border-radius: 50%" />
+            <div class="judge-name">
+              <a href="https://engineering.uottawa.ca/eecs/people/knox-david" target="_blank">David Knox</a>
+            </div>
+            <div class="judge-social">
+            </div>
+            <div class="judge-role">
+              Assistant Professor, University of Ottawa
+            </div>
+            <div class="judge-judging">
+              Judging: General
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <img src="/img/judges/liora-raitblat.jpg" alt="Liora Raitblat Photo" style="max-height: 100px; max-width: 100px; border-radius: 50%" />
+            <div class="judge-name">
+              <a href="http://www.telfer.uottawa.ca/en/latest-news/44-entrepreneurship-innovation/2513-celebrating-start-ups-at-uottawa" target="_blank">Liora Raitblat</a>
+            </div>
+            <div class="judge-social">
+              <a href="https://twitter.com/R8BLAT" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://ca.linkedin.com/in/lioraraitblat" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div class="judge-role">
+              Co-founder, <a href="//gogiveback.co" target="_blank">Go Give-Back</a> | Deloitte Consulting
+            </div>
+            <div class="judge-judging">
+              Judging:
+              <img src="/img/icons/urban_agriculture_2.png" alt="Judging Social Impact Category" style="width: 1.250em; height: 1.250em" />
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <img src="/img/judges/katie-miller.jpg" alt="Katie Miller Photo" style="max-height: 100px; max-width: 100px; border-radius: 50%" />
+            <div class="judge-name">
+              Katie Miller
+            </div>
+            <div class="judge-social">
+              <a href="https://twitter.com/MillerKatieS" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/katie-miller-37361332" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div class="judge-role">
+              Managing Director, <a href="http://ottawa.impacthub.net/" target="_blank">Impact HUB Ottawa</a>
+            </div>
+            <div class="judge-judging">
+              Judging:
+              <img src="/img/icons/urban_agriculture_2.png" alt="Judging Social Impact Category" style="width: 1.250em; height: 1.250em" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <img src="/img/judges/rola-tibshirani.png" alt="Rola Tibshirani Photo" style="max-height: 100px; max-width: 100px; border-radius: 50%" />
+            <div class="judge-name">
+              Rola Tibshirani
+            </div>
+            <div class="judge-social">
+              <a href="https://twitter.com/rolat" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://linkedin.com/in/rola-tibshirani-7366b831" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div class="judge-role">
+              Learning Partner, Ottawa Catholic School Board
+            </div>
+            <div class="judge-judging">
+              Judging:
+              <img src="/img/icons/print.png" alt="Judging Maker Category" style="width: 1.250em; height: 1.250em" />
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <img src="/img/judges/frank-bouchard.jpg" alt="Frank Bouchard Photo" style="max-height: 100px; max-width: 100px; border-radius: 50%" />
+            <div class="judge-name">
+              <a href="https://wipebook.com/pages/about-us" target="_blank">Frank Bouchard</a>
+            </div>
+            <div class="judge-social">
+              <a href="https://twitter.com/Wipebook" target="_blank"><i class="fa fa-twitter"></i></a>
+            </div>
+            <div class="judge-role">
+              Co-founder, <a href="https://wipebook.com/" target="_blank">Wipebook</a>
+            </div>
+            <div class="judge-judging">
+              Judging:
+              <img src="/img/icons/print.png" alt="Judging Maker Category" style="width: 1.250em; height: 1.250em" /> & General
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <img src="/img/judges/natalie-baddour.png" alt="Natalie Baddour Photo" style="max-height: 100px; max-width: 100px; border-radius: 50%" />
+            <div class="judge-name">
+              <a href="https://engineering.uottawa.ca/mechanical/people/baddour-natalie" target="_blank">Natalie Baddour</a>
+            </div>
+            <div class="judge-social">
+              <a href="https://twitter.com/natbaddour" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/natalie-baddour-1344874" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div class="judge-role">
+              Associate Professor, University of Ottawa
+            </div>
+            <div class="judge-judging">
+              Judging:
+              <img src="/img/icons/mobile-health.png" alt="Judging Mobile Health Category" style="width: 1.250em; height: 1.250em" />
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <img src="/img/judges/nada-gawad.jpg" alt="Nada Gawad Photo" style="max-height: 100px; max-width: 100px; border-radius: 50%" />
+            <div class="judge-name">
+              <a href="http://residentdoctors.ca/news/2015-2016-rdoc-award-recipients-announced/" target="_blank">Nada Gawad</a>
+            </div>
+            <div class="judge-social">
+            </div>
+            <div class="judge-role">
+              Resident, General Surgery, University of Ottawa
+            </div>
+            <div class="judge-judging">
+              Judging:
+              <img src="/img/icons/mobile-health.png" alt="Judging Mobile Health Category" style="width: 1.250em; height: 1.250em" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="coaches-n-mentors" class="section">
+      <div class="container">
+        <div class="row title text-center">
+          <h1 class="margin-top-50">Our Coaches and Mentors</h1>
+        </div>
+        <div class="row" style="margin-bottom: 1em;">
+          <div class="col-md-4">
+            <div class="col-md-4">
+              <div class="mentor-image">
+                <img src="/img/judges/mikael-charette.jpg" alt="Picture of Mikaël Charette" style="height: 100px; width: 100px;border-radius:50%;" />
+            </div>
+            </div>
+            <div class="col-md-8">
+              <div class="coaches-mentor-name"><a href="http://www.wellfundedenterprise.com/bio-mc" target="_blank">Mikaël Charette</a></div>
+              <div class="coaches-mentor-role">COO, WEllFunded</div>
+              <!-- <p class="lead">
+                Mikael is the COO of WEllfunded - an innovative investment funds and collaborate with incubators in order to bridge China and Canada. In addition, Mikael has been the President of Well Asia Group for the past 11 years.
+              </p>
+              <p class="lead">
+                Mikael graduated summa cum laude in 2002 from the Faculty of Law at the University of Ottawa, where he completed a License in Civil Law. He then went on to complete a bachelor's degree in Common Law from the University of Victoria and a Master of Law at the City University of Hong Kong.
+              </p> -->
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="col-md-4">
+              <div class="mentor-image">
+                <img src="/img/coaches-mentors/marco-janeczek.png" alt="Picture of Marco Janeczek" style="height: 100px; width: 100px;border-radius:50%;" />
+            </div>
+            </div>
+            <div class="col-md-8">
+              <div class="coaches-mentor-name"><a href="http://www.l-spark.com/our-story/" target="_blank">Marco Janeczek</a></div>
+              <div class="coaches-mentor-role">Director Accelerator + Incubator, L-Spark</div>
+              <!-- <p class="lead">
+                Marco leverages his skills in business development, sales, finance, technology and product development.
+              </p> -->
+              <!-- <p class="lead">
+                My current work circles around startups, accelerators and venture funds. Before turning my career into the venture capital industry, I was the founder and CEO of a number of startup companies. As a CEO, I have build teams that solved real world problems through a technological solution, and a large addressable market. I was involved in all aspects of the business, from product strategy, product development, raising capital (angel, VC), business development (traction), strategic partnerships, P&L, customer acquisition, agreements and the final company trade sale. Most of my experience circles around technology startups, where my passion is.
+              </p> -->
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="col-md-4">
+              <div class="mentor-image">
+                <img src="/img/coaches-mentors/stephen-daze.jpg" alt="Picture of Stephen Daze" style="height: 100px; width: 100px;border-radius:50%;" />
+            </div>
+            </div>
+            <div class="col-md-8">
+              <div class="coaches-mentor-name"><a href="http://www.telfer.uottawa.ca/en/directory/program-and-administrative-personnel/executives-in-residence/daze-stephen" target="_blank">Stephen Daze</a></div>
+              <div class="coaches-mentor-role">Dom Herrick Entrepreneur in Residence, University of Ottawa</div>
+              <!-- <p class="lead">
+                Stephen is a long-standing award winning member of the entrepreneurship ecosystem in Canada. He keeps his fresh as a part-time professor teaching entrepreneurship at the University of Ottawa while working with entrepreneurs to launch their new ventures.
+              </p>
+              <p class="lead">
+                Previously, Stephen led the Ottawa Centre for Research and Innovation's (OCRI) Entrepreneurship Centre as the Executive Director.
+              </p>
+            </div> -->
+          </div>
+        </div>
+        </div>
+        <div class="row" style="margin-bottom: 1em;">
+          <div class="col-md-4">
+            <div class="col-md-4">
+              <div class="mentor-image">
+                <img src="/img/coaches-mentors/catherine-geci.jpg" alt="Picture of Catherine Geci" style="height: 100px; width: 100px;border-radius:50%;" />
+            </div>
+            </div>
+            <div class="col-md-8">
+              <div class="coaches-mentor-name"><a href="https://research.uottawa.ca/iss/people/geci-catherine" target="_blank">Catherine Geci</a></div>
+              <div class="coaches-mentor-role">Program Manager, Startup Garage</div>
+              <!-- <p class="lead">
+                Catherine is the Program Manager at Startup Garage - a 3-month accelerator program to foster and support youth entrepreneurship in the Ottawa area. Since 2011, she has worked with Innovation Support Services at the University of Ottawa where she is responsible for assessing new technologies, and develops and implements commercialization plans.
+              </p>
+              <p class="lead">
+                Catherine holds a Bachelor and Masters of Science from McGill University and a law degree from the Universite de Montreal.
+              </p> -->
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="col-md-4">
+              <div class="mentor-image">
+                <img src="/img/coaches-mentors/nolan-beanlands.png" alt="Picture of Nolan Beanlands" style="height: 100px; width: 100px;border-radius:50%;" />
+            </div>
+            </div>
+            <div class="col-md-8">
+              <div class="coaches-mentor-name"><a href="https://research.uottawa.ca/iss/people/beanlands-nolan" target="_blank">Nolan Beanlands</a></div>
+              <div class="coaches-mentor-role">Startup Garage Coordinator & Technology Partnerships Associate, University of Ottawa</div>
+              <!-- <p class="lead">
+                Nolan studied engineering at the University of Waterloo the heart of Canadian entrepreneurship. He now works as the coordinator for the Startup Garage program. Startup Garage is an accelerator run out of the Technology Transfer and Business Enterprise office at UOttawa. Through Startup Garage Nolan has works with dozens of startups helping them grow from early ideation all the way to product sales. Nolan’s energy and outgoing personality helps him push student entrepreneurs to take risks and get out of their comfort zones.
+              </p> -->
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="col-md-4">
+              <div class="mentor-image">
+                <img src="/img/coaches-mentors/john-fielding.png" alt="Picture of John Fielding" style="height: 100px; width: 100px;border-radius:50%;" />
+            </div>
+            </div>
+            <div class="col-md-8">
+              <div class="coaches-mentor-name"><a href="https://ca.linkedin.com/in/john-fielding-269a383" target="_blank">John Fielding</a></div>
+              <div class="coaches-mentor-role">Regional Director - Business Development, Ontario Centres of Excellence</div>
+              <!-- <p class="lead">
+                Currently, John is the Regional Director of Business Development for Eastern and Northern Ontario. He heads a team of Business Development Managers responsible for industry and academic engagement, support for the Regional Innovation Centres (RICs), OCE program delivery and overall business development.John has over 24 years experience in the high technology industry with Nortel, Mitel and Bookham Technology, dealing with many aspects of semiconductor and optical components fabrication including Life Cycle Management, cost analysis, new product / technology introduction and process engineering.He has held senior management positions dealing with strategic relationships as well as mergers and acquisitions ranging from small, less than 100 persons, to large several billion dollar investments.
+              </p> -->
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-bottom: 1em;">
+          <div class="col-md-4">
+            <div class="col-md-4">
+              <div class="mentor-image">
+                <img src="/img/coaches-mentors/andrew-fisher.png" alt="Picture of Andrew Fisher" style="height: 100px; width: 100px;border-radius:50%;" />
+            </div>
+            </div>
+            <div class="col-md-8">
+              <div class="coaches-mentor-name"><a href="https://ca.linkedin.com/in/andrewsfisher" target="_blank">Andrew Fisher</a></div>
+              <div class="coaches-mentor-role">CEO, Pear Data Corporation</div>
+              <!-- <p class="lead">
+                Andrew was most recently the CEO of Gigataur. Prior to that, Andrew spent 15 years as part of the Wesley Clover investment team. During this time, he started, operated and grew new ventures in multiple vertical markets and geographies, drove revenue growth and investor confidence with positive returns for all shareholders. Andrew has an academic background in economics, computer science and engineering and is an honors graduate from the University of British Columbia.
+              </p> -->
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="col-md-4">
+              <div class="mentor-image">
+                <img src="/img/coaches-mentors/luc-lalande.png" alt="Picture of Luc Lalande" style="height: 100px; width: 100px;border-radius:50%;" />
+            </div>
+            </div>
+            <div class="col-md-8">
+              <div class="coaches-mentor-name"><a href="http://www.telfer.uottawa.ca/en/latest-news/44-entrepreneurship-innovation/2019-entrepreneurship-leadership-at-the-telfer-school-and-uottawa" target="_blank">Luc Lalande</a></div>
+              <div class="coaches-mentor-role">Executive Director, Entrepreneurship Hub, University of Ottawa</div>
+              <!-- <p class="lead">
+                Luc Lalande is the Executive Director of the University of Ottawa Entrepreneurship Hub.  As an Ottawa-based innovation practioner with extensive experience in academic-industry-government sectors, Luc specializes in the design and execution of custom programs that build innovation capacity for communities. These grassroots innovation programs are crafted to work with local partners (corporate and institutional) and volunteers in both the private and public sectors, foundations and venture philanthropists.  Current focus areas include the establishment of makerspaces in schools, libraries and community centres that deliver youth programs.  He has recently raised funds to acquire 3D printers as a means of engaging youth in disadvantaged communities.
+              </p> -->
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="col-md-4">
+              <div class="mentor-image">
+                <img src="/img/coaches-mentors/danielle-taillon.jpg" alt="Picture of Danielle Taillon" style="height: 100px; width: 100px;border-radius:50%;" />
+            </div>
+            </div>
+            <div class="col-md-8">
+              <div class="coaches-mentor-name"><a href="https://ca.linkedin.com/in/danielletaillon" target="_blank">Danielle Taillon</a></div>
+              <div class="coaches-mentor-role">Maker Mobile Instructor, University of Ottawa</div>
+              <!-- <p class="lead">
+                Danielle Taillon works at the UOttawa Makerspace where she is creating a wearables program to engage girls in STEM.
+              </p>
+              <p class="lead">
+                She also works with the Makermobile to bring 3D printing, laser cutting, robotics and programming to schools in the Ottawa region.
+              </p> -->
+            </div>
+        </div>
+        </div>
+        <div class="row" style="margin-bottom: 1em;">
+          <div class="col-md-4">
+            <div class="col-md-4">
+              <div class="mentor-image">
+                <img src="/img/coaches-mentors/justine-boudreau.jpg" alt="Picture of Justine Boudreau" style="height: 100px; width: 100px;border-radius:50%;" />
+            </div>
+            </div>
+            <div class="col-md-8">
+              <div class="coaches-mentor-name"><a href="https://ca.linkedin.com/in/justine-boudreau-228a8262" target="_blank">Justine Boudreau</a></div>
+              <div class="coaches-mentor-role">Makerspace officer/Makermobile instructor, University of Ottawa Makerspace/Makermobile</div>
+              <!-- <p class="lead">
+              Justine Boudreau works at the UOttawa Makerspace where she is developing various programs to promote engineering and science with girls. She also works with the Makermobile to introduce 3D printing, laser cutting, robotics and programming to schools in the Ottawa region. Her hobbies include tinkering, robotics and crafting with pop tabs.
+              </p> -->
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="col-md-4">
+              <div class="mentor-image">
+                <img src="/img/coaches-mentors/iman-ghader.png" alt="Picture of Iman Ghader" style="height: 100px; width: 100px;border-radius:50%;" />
+            </div>
+            </div>
+            <div class="col-md-8">
+              <div class="coaches-mentor-name"><a href="http://imanghader.com/" target="_blank">Iman Ghader</a></div>
+              <div class="coaches-mentor-role">Designer, Shopify</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="col-md-4">
+              <div class="mentor-image">
+                <img src="/img/coaches-mentors/velko-tzolov.png" alt="Picture of Velko Tzolov" style="height: 100px; width: 100px;border-radius:50%;" />
+            </div>
+            </div>
+            <div class="col-md-8">
+              <div class="coaches-mentor-name"><a href="https://ca.linkedin.com/in/velko-tzolov-81866b" target="_blank">Velko Tzolov</a></div>
+              <div class="coaches-mentor-role">Industrial Advisor, NRC-IRAP</div>
+              <!-- <p class="lead">
+                Velko is an Industrial Advisor at NRC-IRAP - providing business and technology advisory services, and funding to eligible small and medium Canadian technology firms. He is a seasoned executive with solid track record in business development, sales, marketing and technology leadership roles.
+              </p>
+              <p class="lead">
+                Specialties: Technology sales, marketing, business development, channel & partnership management, strategic business, marketing & technology positioning.
+              </p> -->
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-bottom: 1em;">
+          <div class="col-md-4">
+            <div class="col-md-4">
+              <div class="mentor-image">
+                <img src="/img/coaches-mentors/trevor-wilkins.jpg" alt="Picture of Trevor Græme Wilkins" style="height: 100px; width: 100px;border-radius:50%;" />
+            </div>
+            </div>
+            <div class="col-md-8">
+              <div class="coaches-mentor-name"><a href="https://engineering.uottawa.ca/people/wilkins-trevor" target="_blank">Trevor Græme Wilkins</a></div>
+              <div class="coaches-mentor-role">Engineer Entrepreneur Executive in Residence, University of Ottawa</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="col-md-4">
+              <div class="mentor-image">
+                <img src="/img/coaches-mentors/emma-mohns.jpg" alt="Picture of Emma Mohns" style="height: 100px; width:100px; border-radius: 50%;" />
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="coaches-mentor-name">
+                <a href="http://www.lwlaw.com/people/wilkins-emma/" target="_blank">Emma Mohns</a>
+              </div>
+              <div class="coaches-mentor-role">
+                Associate Lawyer, LaBarge Weinstein LLP
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team section -->
+    <section id="team" class="section gray-bg">
+        <div class="container">
+            <div class="row title text-center">
+                <h2 class="margin-top-50">Organizing Team</h2>
+                <h4 class="light muted">Startup Weekend Ottawa-Gatineau is 100% led by volunteer community leaders. </h4>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3">
+                  <div class="team text-center">
+                      <div id="cover6" class="cover">
+                          <div class="overlay text-center"></div>
+                          <div class="social-icon-wrapper">
+                              <a href="https://twitter.com/uottawa_hanan" target="_blank"><i class="fa fa-twitter fa-5x social-icons push-icons-up-facilitator white"></i></a>
+                              <a href="https://ca.linkedin.com/in/hanan-anis-5b946b11" target="_blank"><i class="fa fa-linkedin fa-5x social-icons push-icons-up-facilitator white"></i></a>
+                          </div>
+                      </div>
+                      <img src="img/team/eecs_hanan_anis_0.png" alt="Team Image of Hanan Anis" style="border-radius: 50%;margin-top: -100px; position: relative;">
+                      <div class="title">
+                          <h4>Hanan Anis</h4>
+                      </div>
+                      <div class="text-center black" id="leader-description">
+                          <p>
+                            Hanan Anis is a professor in Electrical and Computer Engineering at the University of Ottawa. She holds an NSERC chair in Entrepreneurial Engineering Design and is also the coordinator of entrepreneurship and innovation in the Faculty of Engineering. Her passion is to help students develop an entrepreneurial mind set and start successful businesses. She has been teaching entrepreneurship, design and innovation for many years. Prior to joining the university, she was the co-founder and Chief Technology Officer at Ceyba, an optical long-haul networking company that employed 250 people at its peak.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                  <div class="team text-center">
+                      <div id="cover1" class="cover">
+                          <div class="overlay text-center"></div>
+                          <div class="social-icon-wrapper">
+                              <a href="https://twitter.com/Tavares_Renee" target="_blank"><i class="fa fa-twitter fa-5x social-icons push-icons-up-first white"></i></a>
+                              <a href="https://www.linkedin.com/in/reneetavares" target="_blank"><i class="fa fa-linkedin fa-5x social-icons push-icons-up-first white"></i></a>
+                          </div>
+                      </div>
+                      <img src="img/team/renee.png" alt="Team Image" class="avatar">
+                      <div class="title">
+                          <h4>Renee
+                              Tavares</h4>
+                          <h5 class="muted regular">Organizer</h5>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="team text-center">
+                    <div id="cover4" class="cover">
+                        <div class="overlay text-center"></div>
+                        <div class="social-icon-wrapper">
+                            <a href="https://twitter.com/MohamedAsh01" target="_blank"><i class="fa fa-twitter fa-5x social-icons push-icons-up-first white"></i></a>
+                            <a href="https://www.linkedin.com/in/mohamedashabdalla" target="_blank"><i class="fa fa-linkedin fa-5x social-icons push-icons-up-first white"></i></a>
+                        </div>
+                    </div>
+                      <img src="img/team/mohamed.png" alt="Team Image" class="avatar">
+                      <div class="title">
+                          <h4>Mohamed Ashraf Abdalla</h4>
+                          <h5 class="muted regular">Organizer</h5>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="team text-center">
+                    <div id="cover5" class="cover">
+                        <div class="overlay text-center"></div>
+                        <div class="social-icon-wrapper">
+                            <a href="https://twitter.com/aqeelasomani" target="_blank"><i class="fa fa-twitter fa-5x social-icons push-icons-up-first white"></i></a>
+                        </div>
+                    </div>
+                      <img src="img/team/aqeela.jpg" alt="Team Image" class="avatar">
+                      <div class="title">
+                          <h4>Aqeela Somani</h4>
+                          <h5 class="muted regular">Organizer</h5>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            </div>
+            <div class="row title text-center">
+                <h2>Facilitators</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="team text-center">
+                        <div id="cover6" class="cover">
+                            <div class="overlay text-center"></div>
+                            <div class="social-icon-wrapper">
+                                <a href="https://twitter.com/@KikiTweetsEh" target="_blank"><i class="fa fa-twitter fa-5x social-icons push-icons-up-facilitator white"></i></a>
+                                <a href="https://www.linkedin.com/in/krissiethornton" target="_blank"><i class="fa fa-linkedin fa-5x social-icons push-icons-up-facilitator white"></i></a>
+                            </div>
+                        </div>
+                        <img src="img/team/krissie.jpg" alt="Team Image" class="avatar">
+                        <div class="title">
+                            <h4>Krissie Harrigan</h4>
+                            <h5 class="muted regular">Operations Lead</h5>
+                        </div>
+                        <div class="text-center black" id="leader-description">
+                            <p>Proud to be geeky. Unhealthy obsessions with the internet, data, marketing, and customer
+                                experience. Spent a decade working with enterprises like Google, American Express, and
+                                Chase Bank on demand gen and marketing campaigns, then took a leap of faith with an
+                                early stage tech startup (acquired in 2013) and have never looked back.</p>
+
+                            <p>Currently Co-Founder of TenStartups - A community-based accelerator program (Alpha), and
+                                JustReply - A performance reporting platform that prompts employees to report things
+                                back by simply replying to an email. (Beta).</p>
+
+                            <p>Passionate about helping startups and entrepreneurs with growth and marketing strategies
+                                and execution. Unofficial Startup Weekend, Ladies Learning Code, and Code for Kids
+                                ambassador.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsors section -->
+    <div id="push-up-divs">
+      <section id="sponsors" class="section">
+          <div class="container">
+              <div class="row text-center">
+                  <div class="col-xs-12">
+                      <h2 class="margin-top-50">Sponsors</h2>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-md-offset-4 col-md-6">
+                  <img src="/img/sponsors/uottawa-engineering.png" alt="uOttawa Engineering Department Sponsor" style="max-width:100%" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <img src="/img/sponsors/labarge.png" alt="Labarge Sponsor" style="max-width:100%" />
+                </div>
+                <div class="col-md-3">
+                  <img src="/img/sponsors/l-spark.png" alt="L-Spark Sponsor" style="max-width:100%" />
+                </div>
+                <div class="col-md-3">
+                  <img src="/img/sponsors/impact-hub.png" alt="Impact Hub Sponsor" style="max-width:100%" />
+                </div>
+                <div class="col-md-3">
+                  <img src="/img/sponsors/rebel-com.png" alt="Rebel.com Sponsor" style="max-width:100%" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <img src="/img/sponsors/investottawa.png" alt="Invest Ottawa Sponsor" style="max-width:100%" />
+                </div>
+                <div class="col-md-3">
+                  <img src="/img/sponsors/bridgehead.png" alt="Bridgehead Sponsor" style="max-width:100%" />
+                </div>
+                <div class="col-md-3">
+                  <img src="/img/sponsors/maker-space.png" alt="Richard L'abbe Maker Space" style="max-width:100%" />
+                </div>
+                <div class="col-md-3">
+                  <img src="/img/sponsors/nserc.jpg" alt="NSERC Sponsor" style="max-width:100%" />
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6 col-md-offset-3">
+                      <div class="team text-center">
+                          <img src="img/sponsors/Michel-Brule-384x384.jpg" alt="Sponsor Image of Michel Brûlé" height="200px" width="200px" style="border-radius: 50%;">
+                          <div class="title">
+                              <h4>Michel Brûlé</h4>
+                              <h5>President of the board and Anges Québec active member</h5>
+                          </div>
+                          <div class="text-center black" id="leader-description">
+                              <p>
+                                Mr. Brûlé obtained both his Bachelor and Master’s degrees in Electrical Engineering from the University of Ottawa. For more than 20 years, he has concurrently pursued careers in both academia and business. In the academia sector, from 1978 until 1995, he was an active contributor to the launch of École de Technologie Supérieure at University of Québec as a Professor, a Research Lab director and Research dean. In the business sector, Mr. Brûlé founded and co-founded six technology companies since 1979, two of which were sold in 2000. His greatest success, Voice-over-ATM technology company InnoMediaLogic Inc., was sold in July 2000 in a transaction honored as “Best VC deal in Canada for year 2000.”
+                              </p>
+                              <p>
+                                Through private VC fund M&M Investments, since 2000 Mr. Brûlé has helped grow start-up companies and created four generations of spin-offs. Mr Brûlé also actively participated in the launch, and in the on-going operations of the very successful Réseau <a href="https://angesquebec.com/en/about/board-of-directors/michel-brule/" target="_blank">Anges Québec</a> which he chairs since September 2015. Recognized by his peers as an Angel Investor “before his time”, Mr. Brûlé was named Canadian Angel Investor of the Year 2010 by the National Angel Capital Organization. In June 2012, he received from the University of Ottawa an Honorary Doctorate degree.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- <div class="row text-center">
+                  <h4 id="silver" class="light muted margin-top-70">Silver</h4>
+                  <div class="col-xs-12 col-sm-4">
+                      <img id="invest-ottawa" class="sponsor-logo-silver" src="img/sponsors/investottawa.png">
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                      <img class="sponsor-logo-silver" src="img/sponsors/shopify.png">
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                      <img id="concept-share" class="sponsor-logo-silver" src="img/sponsors/conceptshare.png">
+                  </div>
+              </div> -->
+              <div class="row text-center">
+                  <div class="col-xs-12">
+                      <h2 class="margin-top-100">Partners</h2>
+                      <a href="http://www.uottawa-sesa.ca" target="_blank"><img id="sesa" class="margin-top-100" src="img/partners/sesa-low.jpg"></a>
+                  </div>
+              </div>
+              <!-- <div class="row text-center">
+                  <div class="col-xs-12 col-md-4">
+                      <img id="tecde" src="img/partners/tecde.png">
+                  </div>
+                  <div class="col-xs-12 col-md-4">
+                      <img id="enactus" src="img/partners/enactus.png">
+                  </div>
+                  <div class="col-xs-12 col-md-4">
+                      <img id="telfer" src="img/partners/telfer.png">
+                  </div>
+              </div> -->
+          </div>
+      </section>
+    </div>
+</div>
+<!-- Holder for mobile navigation -->
+<div class="mobile-nav">
+    <ul>
+    </ul>
+    <a href="#" class="close-link"><i class="arrow_up"></i></a>
+</div>
+<!-- Scripts -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/uottawastartup.js"></script>
+<!-- Google analytics -->
+<!-- <script src="js/googleanalytics.js"></script> -->
+</body>
+
+</html>

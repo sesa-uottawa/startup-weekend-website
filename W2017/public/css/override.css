@@ -1,0 +1,551 @@
+/* Positioning */
+.margin-top-0 * {
+	margin-top: 0px;
+}
+
+.margin-top-50 {
+	margin-top: 50px;
+}
+
+.margin-top-70 {
+	margin-top: 70px;
+}
+
+.margin-top-100 {
+	margin-top: 100px;
+}
+
+/* Styles */
+body {
+	/* Allows bottom div to shift up
+	without any white space at the bottom*/
+	height:0px;
+}
+
+.navbar-brand {
+	height:44px;
+}
+
+#startup-logo {
+	height:42%;
+	width:42%;
+	padding-bottom: 50px;
+}
+
+#uottawa-logo {
+	width:10%;
+	height:10%;
+	margin-top: 20px;
+}
+
+#video-title {
+	padding-bottom:20px;
+	padding-top:70px;
+	color:white;
+}
+
+#video-background {
+	padding-top:30px;
+}
+
+.intro-table-fourth {
+	background-image: url('../img/table-4.png');
+}
+
+#about {
+	position: relative;
+	width: 100%;
+	color: white;
+	background:
+			linear-gradient(
+					rgba(0, 0, 0, 1),
+					rgba(0, 0, 0, 0.15),
+					rgba(0, 0, 0, 0.15)),
+			url('../img/banner-bg.jpg');
+	background-size: cover;
+	padding-bottom: 100px;
+
+}
+
+#video-section {
+	position: relative;
+	width: 100%;
+	color: white;
+	background:
+			linear-gradient(
+					rgba(0, 0, 0, 0.75),
+					rgba(0, 0, 0, 0.75)),
+			url('../img/video-background-low.jpg');
+	background-size: cover;
+	padding-bottom: 100px;
+}
+
+#push-up-divs {
+	position:relative;
+	top:-320px;
+}
+
+#second-cut {
+	bottom:240px;
+	position: relative;
+	z-index: 1;
+}
+
+#intro-tables-container {
+	position:relative;
+	z-index:2;
+}
+
+#startup-weekend-description {
+	padding-top: 20px;
+}
+
+#startup-weekend-description2 {
+	text-align:left;
+	background-color:white;
+	padding:30px;
+	border-radius: 10px;
+	font-size:25px;
+}
+
+#what-is-startup {
+	padding-top:190px;
+}
+
+#services {
+	padding-top:70px;
+	padding-bottom:70px;
+}
+
+/* Footer */
+
+#schedule-background {
+	background:
+			linear-gradient(
+					rgba(0, 0, 0, 0.40),
+					rgba(0, 0, 0, 0.40)),
+			url('../img/time-bg.jpg');
+	padding: 0px 0px 40px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-webkit-transition: background-image 0.6s linear 0.3s;
+	transition: background-image 0.6s linear 0.3s;
+}
+
+#schedule-background .trial-button {
+	overflow: hidden !important;
+	margin: 40px 0;
+}
+
+#schedule-background .open-blink {
+	content: ' ';
+	position: relative;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin: 0 20px;
+	border-radius: 50%;
+	background-color: #4caf50;
+	-webkit-animation-name: flash;
+	animation-name: flash;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+#schedule-background .open-blink:before {
+	content: ' ';
+	position: absolute;
+	top: -8px;
+	left: -8px;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	opacity: 0.1;
+	border-radius: 50%;
+	background-color: #4caf50;
+}
+
+#schedule-background .opening-hours {
+	margin-top: 60px;
+}
+
+#schedule-background .bottom-footer {
+	margin-top: 150px;
+}
+
+#schedule-background .social-footer {
+	padding: 0;
+	list-style: none;
+}
+
+#schedule-background .social-footer li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+#schedule-background .social-footer li a {
+	font-size: 24px;
+	color: #fff;
+}
+
+#schedule-background .social-footer li:hover a {
+	color: #00a8ff;
+}
+
+.borderless tbody tr td, .borderless tbody tr th, .borderless thead tr th {
+    border: none;
+}
+
+.super-light {
+	font-weight:100;
+}
+
+#event-schedule-title {
+	padding-bottom: 60px;
+}
+
+.btn-block {
+	padding: 35px 30px;
+	color:white;
+	border-radius: 5px;
+	font-size:25px;
+}
+
+.schedule-button {
+	padding-bottom: 20px;
+}
+
+.schedule-table {
+	margin-top: 30px;
+}
+
+.avatar {
+	width:50%;
+	height:50%;
+}
+
+.social-icons {
+	padding:25px;
+	transition: all .2s ease-in-out;
+	cursor: pointer;
+	position:relative;
+}
+
+.push-icons-up {
+	bottom:55px;
+}
+
+.push-icons-up-facilitator {
+	bottom:55px;
+}
+
+.social-icons:hover {
+	transform: scale(1.5);
+}
+
+.social-icon-wrapper {
+	position:absolute;
+    left:0;
+    right:0;
+    top:15%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#leader-description {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.location {
+	margin: 40px 0;
+}
+
+
+.textContainer {
+    height: 430px;
+    line-height: 400px;
+}
+
+.textContainer address {
+	font-size:23px;
+	text-align: left;
+	padding: 25px;
+	border-style: solid;
+	border-width:1px;
+	border-color: rgb(221, 221, 221);
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.share-icons {
+	color:#19B1FF;
+}
+
+.service {
+	cursor: pointer;
+	margin: 40px 0;
+}
+
+.ticket-type {
+	height:175px;
+	text-align: center;
+	padding:30px 50px 40px 50px !important;
+	font-size:20px;
+	font-weight: 400;
+	background-color: #ffffff;
+	color: #343434;
+	line-height: 28px;
+	border: thick solid #bbbbbb;
+	border-width: 1px;
+	borde-style: solid;
+}
+
+.social-hover:hover {
+	color:#19B1FF;
+}
+
+.category-column {
+	padding:40px;
+}
+
+#categories {
+	margin-top: 50px;
+}
+
+#categories-title {
+	margin-bottom: 50px;
+}
+
+#build-a-startup {
+	line-height: 35px;
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+
+#cover1 {
+	background:linear-gradient(
+	rgba(0, 0, 0, 0.2),
+	rgba(0, 0, 0, 0.90)),url('../img/team/team-cover1.jpg');
+	background-size:cover;
+}
+
+#cover2 {
+	background:linear-gradient(
+			rgba(0, 0, 0, 0.2),
+			rgba(0, 0, 0, 0.90)),url('../img/team/team-cover2.jpg');
+	background-size:cover;
+}
+
+#cover3 {
+	background:linear-gradient(
+			rgba(0, 0, 0, 0.2),
+			rgba(0, 0, 0, 0.90)),url('../img/team/team-cover3.jpg');
+	background-size:cover;
+}
+
+#cover4 {
+	background:linear-gradient(
+			rgba(0, 0, 0, 0.2),
+			rgba(0, 0, 0, 0.90)),url('../img/team/team-cover4.jpg');
+	background-size:cover;
+}
+
+#cover5 {
+	background:linear-gradient(
+			rgba(0, 0, 0, 0.2),
+			rgba(0, 0, 0, 0.90)),url('../img/team/team-cover5.jpg');
+	background-size:cover;
+}
+
+#cover6 {
+	background:linear-gradient(
+			rgba(0, 0, 0, 0.2),
+			rgba(0, 0, 0, 0.90)),url('../img/team/team-cover6.jpg');
+	background-size:cover;
+}
+
+#dms-location {
+	color:white;
+	top:-30px;
+	font-weight:300;
+	font-size:19px;
+	line-height: 30px;
+}
+
+.sponsor-logo-gold {
+	margin-top:40px;
+	width: 20%;
+	height: 20%;
+}
+
+.sponsor-logo-silver {
+	margin-top:40px;
+	width: 45%;
+	height: 45%;
+}
+
+#concept-share{
+	padding-top: 20px;
+}
+
+#tecde {
+	width:50%;
+	height:50%;
+}
+
+#telfer {
+	padding-top:15px;
+}
+
+#silver {
+	margin-bottom: 70px;
+}
+
+.embed-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%; }
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#video-container {
+	padding-left:20vw;
+	padding-right:20vw;
+}
+
+#sesa {
+	position:relative;
+	right:30px;
+}
+
+/* MEDIA QUERIES FOR RESPONSIVE LAYOUT*/
+
+@media screen and (max-width: 1200px) {
+
+	.navbar-brand {
+		height:0px;
+	}
+
+
+}
+
+@media screen and (max-width: 1007px) {
+
+	.intro-tables .intro-table-first, .intro-tables .intro-table-second {
+		margin: 20px 0 85px;
+	}
+
+	.ticket-type {
+		padding: 60px 50px 40px 50px !important;
+	}
+
+	.btn-block {
+		width: 80%;
+		left: 10%;
+		position: relative;
+	}
+
+	#share-friends {
+		font-size: 30px;
+		bottom: 60px;
+	}
+
+	#location-title {
+		font-size:48px;
+	}
+
+	#event-schedule-title {
+		font-size: 40px;
+	}
+
+	.push-icons-up {
+		bottom:60px;
+	}
+
+	.push-icons-up-facilitator {
+		bottom:100px;
+	}
+
+	.push-icons-up-first {
+		bottom: 60px;
+	}
+}
+
+/* Mobile menu */
+@media (max-width: 767px) {
+	#uottawa-logo {
+		height: 20%;
+		width: 20%;
+	}
+	#startup-logo {
+		height: 95%;
+		width: 95%;
+	}
+	#what-is-startup {
+		padding-top:140px;
+	}
+	.section-title {
+		font-size: 28px;
+	}
+	#location-title {
+		font-size: 28px;
+	}
+	#share-friends {
+		font-size: 28px;
+	}
+	.sponsor-logo-gold {
+		width:40%;
+		height:40%;
+	}
+	.sponsor-logo-silver {
+		margin-top:100px;
+	}
+	#invest-ottawa {
+		margin-top:0px;
+	}
+	#startup-weekend-description, #startup-weekend-description2 {
+		font-size:19px;
+	}
+	#build-a-startup {
+		font-size:17px;
+	}
+}
+
+@media (max-width: 400px) {
+	.textContainer {
+		margin-top:40px;
+	}
+	#sesa, #tecde, #telfer, #enactus {
+		height:50%;
+		width:50%;
+	}
+	.ticket-type {
+		font-size:15px;
+		font-weight: 500;
+	}
+	#build-a-startup {
+		font-size:14px;
+		line-height: 30px;
+	}
+	.category-description {
+		font-size:15px;
+	}
+}
+
+/* To stretch out menu width */
+@media (min-width: 1200px) {
+	.container {
+		width: 1370px;
+	}
+}
