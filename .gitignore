@@ -20,3 +20,4 @@ testem.log
 /misc
 ._*.*
 npm-debug.log*
+.DS_Store
